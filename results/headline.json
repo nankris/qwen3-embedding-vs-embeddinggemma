@@ -1,0 +1,7 @@
+{
+  "winner": "EmbeddingGemma 2",
+  "relative_recall10_pct": 2.3587778351652933,
+  "lo": 0.016139933886692458,
+  "hi": 4.924241998996845,
+  "quality_verdict": "DISPROVEN"
+}

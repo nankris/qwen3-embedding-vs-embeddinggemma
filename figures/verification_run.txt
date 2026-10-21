@@ -1,0 +1,37 @@
+[
+  {
+    "file": "bge_arguana_top100.json",
+    "queries_verified": 1406,
+    "corpus_docs": 8674
+  },
+  {
+    "file": "bge_nfcorpus_top100.json",
+    "queries_verified": 323,
+    "corpus_docs": 3633
+  },
+  {
+    "file": "bge_scifact_top100.json",
+    "queries_verified": 300,
+    "corpus_docs": 5183
+  },
+  {
+    "file": "gemma_scifact_top100.json",
+    "queries_verified": 300,
+    "corpus_docs": 5183
+  },
+  {
+    "file": "qwen_arguana_top100.json",
+    "queries_verified": 1406,
+    "corpus_docs": 8674
+  },
+  {
+    "file": "qwen_nfcorpus_top100.json",
+    "queries_verified": 323,
+    "corpus_docs": 3633
+  },
+  {
+    "file": "qwen_scifact_top100.json",
+    "queries_verified": 300,
+    "corpus_docs": 5183
+  }
+]

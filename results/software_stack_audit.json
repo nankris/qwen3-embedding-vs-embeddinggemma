@@ -1,0 +1,44 @@
+[
+  {
+    "model": "qwen",
+    "dataset": "scifact",
+    "queries": 300,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "qwen",
+    "dataset": "nfcorpus",
+    "queries": 323,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "qwen",
+    "dataset": "arguana",
+    "queries": 1406,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "scifact",
+    "queries": 300,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "nfcorpus",
+    "queries": 323,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "arguana",
+    "queries": 1406,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  }
+]

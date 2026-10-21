@@ -1,0 +1,7 @@
+Initial colab usage before allocation (terminal output):
+Current balance: 162.84 compute units
+Usage rate: 1.54/hr
+Active assignments: 1
+Session b6-098 allocation: 2026-10-17 05:58:23.831355 UTC (CLI session_created event).
+Own L4 marginal rate: 1.54 CU/hour (account rate rose from 1.54 to 3.08 with this allocation).
+Account balances include concurrent work; session CU must be estimated from its own lifetime, not charged the account-wide balance difference.

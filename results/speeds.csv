@@ -1,0 +1,4 @@
+model,gpu,cpu
+Qwen3 0.6B,53.698383455616494,
+EmbeddingGemma 2,101.90040436960003,
+BGE small,435.8519471920082,

@@ -1,0 +1,214 @@
+{
+  "_id": "683f05dc98de733bf4c59f3d",
+  "id": "Qwen/Qwen3-Embedding-0.6B",
+  "private": false,
+  "pipeline_tag": "feature-extraction",
+  "library_name": "sentence-transformers",
+  "tags": [
+    "sentence-transformers",
+    "safetensors",
+    "qwen3",
+    "text-generation",
+    "transformers",
+    "sentence-similarity",
+    "feature-extraction",
+    "text-embeddings-inference",
+    "arxiv:2506.05176",
+    "base_model:Qwen/Qwen3-0.6B-Base",
+    "base_model:finetune:Qwen/Qwen3-0.6B-Base",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "deploy:sagemaker",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 8585774,
+  "likes": 1294,
+  "modelId": "Qwen/Qwen3-Embedding-0.6B",
+  "author": "Qwen",
+  "sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "lastModified": "2026-04-20T02:45:58.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Qwen3ForCausalLM"
+    ],
+    "model_type": "qwen3",
+    "tokenizer_config": {
+      "bos_token": null,
+      "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0].role == 'system' %}\n        {{- messages[0].content + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0].content + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" and not(message.content.startswith('<tool_response>') and message.content.endswith('</tool_response>')) %}\n        {%- set ns.multi_step_tool = false %}\n        {%- set ns.last_query_index = index %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set content = message.content %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is defined and message.reasoning_content is not none %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in message.content %}\n                {%- set content = message.content.split('</think>')[-1].lstrip('\\n') %}\n                {%- set reasoning_content = message.content.split('</think>')[0].rstrip('\\n').split('<think>')[-1].lstrip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- if loop.index0 > ns.last_query_index %}\n            {%- if loop.last or (not loop.last and reasoning_content) %}\n                {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content.strip('\\n') + '\\n</think>\\n\\n' + content.lstrip('\\n') }}\n            {%- else %}\n                {{- '<|im_start|>' + message.role + '\\n' + content }}\n            {%- endif %}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if (loop.first and content) or (not loop.first) %}\n                    {{- '\\n' }}\n                {%- endif %}\n                {%- if tool_call.function %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {{- '<tool_call>\\n{\"name\": \"' }}\n                {{- tool_call.name }}\n                {{- '\", \"arguments\": ' }}\n                {%- if tool_call.arguments is string %}\n                    {{- tool_call.arguments }}\n                {%- else %}\n                    {{- tool_call.arguments | tojson }}\n                {%- endif %}\n                {{- '}\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- endif %}\n{%- endif %}",
+      "eos_token": "<|im_end|>",
+      "pad_token": "<|endoftext|>",
+      "unk_token": null
+    }
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "base_model": [
+      "Qwen/Qwen3-0.6B-Base"
+    ],
+    "tags": [
+      "transformers",
+      "sentence-transformers",
+      "sentence-similarity",
+      "feature-extraction",
+      "text-embeddings-inference"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForCausalLM",
+    "pipeline_tag": "text-generation",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "1_Pooling/config.json"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "config_sentence_transformers.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "merges.txt"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "modules.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vocab.json"
+    }
+  ],
+  "spaces": [
+    "tardellirs/model-pulse",
+    "embedl/hfviewer",
+    "fastgpu/vram-and-gpu-cost-calculator",
+    "emanforhelp/model-pulse",
+    "hugging-apps/mulacover-demo",
+    "MTEB-BR/leaderboard",
+    "hakari-bench/leaderboard",
+    "hfmlsoc/smollm3-eu-data-transparency",
+    "firefighter/TransDis-CreativityAutoAssessment",
+    "rwitz/Qwen3-Embedding-0.6B-Demo",
+    "kaengreg/rusBEIR",
+    "fahmiaziz/api-embedding",
+    "Omartificial-Intelligence-Space/Arabic-Semantic-Embedding-Suite",
+    "AmirMohseni/legal-conversation-explorer",
+    "build-small-hackathon/pensieve",
+    "GiacomoDeLuca/orrery-demo",
+    "sergeyzh/rusBEIR-lite",
+    "ipepe/nomic-embeddings",
+    "xishaoji/Qwen3-embedding",
+    "Molbap/modular-detector-v2",
+    "ChenyuEcho/Epiq-RAG-demo",
+    "zeynepbkn01/recipe-rag-and-fine-tuned",
+    "adeelahmad/Acoustic-Intelligence",
+    "pierre-tassel/rapido-ner-space",
+    "galihboy/skripsi",
+    "destinyebuka/AIDA",
+    "EF54321/Qwen-Qwen3-Embedding-0.6B",
+    "jasonwastaken/resumer-api",
+    "Now-Join-Us/Generalist-Value-Model-V0",
+    "kaiogu/phil-mind-rag",
+    "sreeramajay/visual_reasoning-env",
+    "kttltzz/LumiSpace",
+    "blankchen/merchantfaq-demo",
+    "BrocoAI/trikal-darshi-api",
+    "Shubham71205/RA2",
+    "Mvali77/Aurelius",
+    "FatimahEmadEldin/clinical-cds-assistant",
+    "maufadel/wattgpu",
+    "SYNAPSEai1/Synapse-Music-Cover-Demo",
+    "Wizzas/defectrag-inference",
+    "wublewobble/genre-classifier",
+    "Shamik/ml_research_assistant_and_tutor",
+    "Agents-MCP-Hackathon/ml_research_agent",
+    "mouryachinta/gwen-cohere",
+    "rishiraj/embedding",
+    "leoendless/Qwen-Qwen3-Embedding-0.6B",
+    "novamysticX/embiddings_qwen",
+    "gauravprasadgp/fine-tuned",
+    "philtoms/minilm-alice-base-rsft-v1",
+    "wolfofbackstreet/qwen3-embedding-server",
+    "bbob94381/Qwen-Qwen3-Embedding-0.6B",
+    "cgreszes/AI-Founder-Coach",
+    "cgreszes/HockeyScout-AI",
+    "Shago/pronunciation_assessment",
+    "vietkemmai/sv_sdh",
+    "vietkemmai/newsv",
+    "ymali/bipolar",
+    "subarnoM/Qwen3-Embedding-0.6B",
+    "Lyte/Qwen3-Embedding-0.6B",
+    "meandyou200175/demo_intent",
+    "CK-Explorer/DuoSubs",
+    "yucxy/semsearch_chat_demo",
+    "shanaka95/gemma-3-270m-it-rag-finetune",
+    "nishantrajpoot/Data-Reclassifier",
+    "yucxy/semsearch_demo",
+    "venkatasg/kural",
+    "jonathanjordan21/Job_Recommender",
+    "digihind/Qwen-Qwen3-Embedding-0.6B",
+    "SmartDataAlex/Jupyter",
+    "nishantrajpoot/INTERNAL-RAG-CHATBOT",
+    "Akhdan/demo-rag",
+    "jonathanjordan21/api-recruitment-demo",
+    "leosilvasantos/Qwen-Qwen3-Embedding-0.6B",
+    "samsaara/hyde_rag",
+    "cavalierplance/gradio-refund-predicter",
+    "cimejia/SoilsEcAssistant",
+    "nishantrajpoot/Streamlit-X-Chromadb",
+    "rocket1010101/Qwen_0.6",
+    "marcsixtysix/rag_chat_",
+    "Ahmed-El-Zainy/Autism_QA",
+    "Ojochegbeng/Pansgpt",
+    "Lumokinesis/embeddings-as-cognition-umap",
+    "Leningoud/Qwen-Qwen3-Embedding-0.6B",
+    "VicVald/Qwen-Qwen3-Embedding-0.6B",
+    "MAB502/Qwen3-Embedding-0.6B-Inference",
+    "kenlkehl/mm-ai-demo",
+    "nishantrajpoot/Data-Reclassifier-for-NEW-SHEET-Format",
+    "romybeaute/MOSAICapp",
+    "Calistusmwonga/ai-first-aid-chatbot",
+    "akadhim/OncoScout",
+    "ginntonics/This-Is-So-You",
+    "itslikethisnow/rubric-ai",
+    "Vyuura/Qwen-Qwen3-Embedding-0.6B",
+    "jme-datasci/cville-assistant",
+    "Jakij4ki/nutrimori-api",
+    "feersdilaa/ai-rag",
+    "Purgatorium/embedding",
+    "jme-datasci/cville-assistant-embed",
+    "gz987/Qwen3-Embedding-0.6B-Demo",
+    "EF54321/Qwen-Qwen3-Embedding-0.6B-auto"
+  ],
+  "createdAt": "2025-06-03T14:25:32.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 595776512
+    },
+    "total": 595776512
+  },
+  "inference": "warm",
+  "usedStorage": 10170768124
+}

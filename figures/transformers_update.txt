@@ -1,0 +1,22 @@
+Collecting git+https://github.com/huggingface/transformers.git
+  Cloning https://github.com/huggingface/transformers.git to /tmp/pip-req-build-vtfhtr6j
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers.git /tmp/pip-req-build-vtfhtr6j
+  Resolved https://github.com/huggingface/transformers.git to commit 8498ed425fa01bbee7d086efdf1a6634c2962aed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: transformers
+  Building wheel for transformers (pyproject.toml): started
+  Building wheel for transformers (pyproject.toml): finished with status 'done'
+  Created wheel for transformers: filename=transformers-5.21.0.dev0-py3-none-any.whl size=14129893 sha256=4fa0ce5597c25eae70cff33f357b1e4661e824cfc263154a092301d7fc2dda95
+  Stored in directory: /tmp/pip-ephem-wheel-cache-hla746y_/wheels/90/86/bb/8ad35b428289429952d8316d30f64abedae0ab2fcee0f4f46f
+Successfully built transformers
+Installing collected packages: transformers
+  Attempting uninstall: transformers
+    Found existing installation: transformers 5.18.0
+    Uninstalling transformers-5.18.0:
+      Successfully uninstalled transformers-5.18.0
+Successfully installed transformers-5.21.0.dev0

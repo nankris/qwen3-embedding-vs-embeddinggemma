@@ -1,0 +1,926 @@
+[
+  {
+    "type": "directory",
+    "oid": "4c886c8ad8ba6c79575d4d6655955555bcb7a2ee",
+    "size": 0,
+    "path": "miracl-v1.0-ar"
+  },
+  {
+    "type": "directory",
+    "oid": "b842c51741e6bf506c01898de1d09839b2e426e6",
+    "size": 0,
+    "path": "miracl-v1.0-ar/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "4f61212f535a7d4c8f26215990cbcec6dbc0a2c5",
+    "size": 0,
+    "path": "miracl-v1.0-ar/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "391207807d2ca4bee5f557444a9825a4b3c044fb",
+    "size": 0,
+    "path": "miracl-v1.0-bn"
+  },
+  {
+    "type": "directory",
+    "oid": "9281c5c8fe0c287887ccd18c6b95bf356de72970",
+    "size": 0,
+    "path": "miracl-v1.0-bn/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "c5ebf5d0744c73382d3cfb40f300355e281bbb00",
+    "size": 0,
+    "path": "miracl-v1.0-bn/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "eb2cb2e150d47585b492826038a8d8f827d091cd",
+    "size": 0,
+    "path": "miracl-v1.0-de"
+  },
+  {
+    "type": "directory",
+    "oid": "307bbceb7dc9f996cb14515dcff63d7c705dd5d3",
+    "size": 0,
+    "path": "miracl-v1.0-de/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "c1d4dfb3c0cb525c19823b45178a85d9c6111b24",
+    "size": 0,
+    "path": "miracl-v1.0-de/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "e3dc1ebaa93c0bc47c9e47c504102302833c3c48",
+    "size": 0,
+    "path": "miracl-v1.0-en"
+  },
+  {
+    "type": "directory",
+    "oid": "39f26e8e377e0703383556c798e000c6a85b2267",
+    "size": 0,
+    "path": "miracl-v1.0-en/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "4b050b1858e8b5e4c81cd2cfa3351095c18e3b8b",
+    "size": 0,
+    "path": "miracl-v1.0-en/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "b7af7e7bc5e4793702a74e3fcbd77e53df4bccf0",
+    "size": 0,
+    "path": "miracl-v1.0-es"
+  },
+  {
+    "type": "directory",
+    "oid": "4a616e125ae9eaaffb28c307deef059c92df47a0",
+    "size": 0,
+    "path": "miracl-v1.0-es/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "0951f2861a7ca12f5e5f0e0263e9732668cd8784",
+    "size": 0,
+    "path": "miracl-v1.0-es/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "dd8302cca8e2d57708cdf42e27e192e33de762d9",
+    "size": 0,
+    "path": "miracl-v1.0-fa"
+  },
+  {
+    "type": "directory",
+    "oid": "6a12e7ed483ae102682e76a0aa2b2404310f1c37",
+    "size": 0,
+    "path": "miracl-v1.0-fa/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "39d10c739f44a0e7df82d2a8fdfee1b04ba321d7",
+    "size": 0,
+    "path": "miracl-v1.0-fa/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "5df430cd2fca55df860f42522f5e9f0ab204ef6b",
+    "size": 0,
+    "path": "miracl-v1.0-fi"
+  },
+  {
+    "type": "directory",
+    "oid": "debb577998338526954567689e1caa7124e4d75c",
+    "size": 0,
+    "path": "miracl-v1.0-fi/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "c75e99bd44bc31927fcf287fac4ab83bfe97f601",
+    "size": 0,
+    "path": "miracl-v1.0-fi/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "98ce8f9ed9fd993347e5a9e6b45424fec8daf377",
+    "size": 0,
+    "path": "miracl-v1.0-fr"
+  },
+  {
+    "type": "directory",
+    "oid": "07e6bd124443b90854a689736768c701223ff8ea",
+    "size": 0,
+    "path": "miracl-v1.0-fr/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "19d3c2e45a0b2a1c8e92d30cd435969d4513b985",
+    "size": 0,
+    "path": "miracl-v1.0-fr/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "d88370ab7a490b0c7f9771ddb2394f4c9568f358",
+    "size": 0,
+    "path": "miracl-v1.0-hi"
+  },
+  {
+    "type": "directory",
+    "oid": "3176e320d5a81c71e15a084feee7942e18e6c4d0",
+    "size": 0,
+    "path": "miracl-v1.0-hi/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "41886d89e81c886b01e4b46bbca8a15f763b159c",
+    "size": 0,
+    "path": "miracl-v1.0-hi/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "e7fcefa886007773594f7fb897fabbb583c33e6a",
+    "size": 0,
+    "path": "miracl-v1.0-id"
+  },
+  {
+    "type": "directory",
+    "oid": "742c11beb95306519ed479f483b6f3edf65c70f9",
+    "size": 0,
+    "path": "miracl-v1.0-id/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "002359df5a36863275f16ee252d29f8ebbf0eba6",
+    "size": 0,
+    "path": "miracl-v1.0-id/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "4c5fe9354bf44a43cff72591ff35858e42fe5756",
+    "size": 0,
+    "path": "miracl-v1.0-ja"
+  },
+  {
+    "type": "directory",
+    "oid": "50726f813f458b10f078e260e68dfcd86a440939",
+    "size": 0,
+    "path": "miracl-v1.0-ja/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "c061981765da1fa6cf7b90b89e5e299dcdc2a2fb",
+    "size": 0,
+    "path": "miracl-v1.0-ja/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "bbb6bc3647bc878f73b1089748e913406a2f7710",
+    "size": 0,
+    "path": "miracl-v1.0-ko"
+  },
+  {
+    "type": "directory",
+    "oid": "3f1ad6271e999fcbb5cbc11a428bbb5124aaa3d9",
+    "size": 0,
+    "path": "miracl-v1.0-ko/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "c02adba9ce8fd77422fa97cfbda0bebf9fe5c746",
+    "size": 0,
+    "path": "miracl-v1.0-ko/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "b4f3dc3b57bb50e64d70661a22076c4175585066",
+    "size": 0,
+    "path": "miracl-v1.0-ru"
+  },
+  {
+    "type": "directory",
+    "oid": "d183ac7f56d14af76a9704a897a0cef65298b7a8",
+    "size": 0,
+    "path": "miracl-v1.0-ru/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "1ab9f0a0be72b91c9f270013e1cfd15d790c8754",
+    "size": 0,
+    "path": "miracl-v1.0-ru/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "4e5fb615dfbf4dc1d4abf4a7ede11923b392e47a",
+    "size": 0,
+    "path": "miracl-v1.0-sw"
+  },
+  {
+    "type": "directory",
+    "oid": "d3d872dcf1666ac0603b2e6ce5a736dc9b987664",
+    "size": 0,
+    "path": "miracl-v1.0-sw/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "0b4f949e4324f5f444b177a4616ebc37d469e399",
+    "size": 0,
+    "path": "miracl-v1.0-sw/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "0db9b782818d92f2734bb10922d74db38f1471b4",
+    "size": 0,
+    "path": "miracl-v1.0-te"
+  },
+  {
+    "type": "directory",
+    "oid": "0818cd6edd1b010b6725f334e8b9fa525bc694dd",
+    "size": 0,
+    "path": "miracl-v1.0-te/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "9ed41e56a62993f854244af64a83d384deb9ed09",
+    "size": 0,
+    "path": "miracl-v1.0-te/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "184c7c511b91ad6dea1eea9459b9341a10cd4bd3",
+    "size": 0,
+    "path": "miracl-v1.0-th"
+  },
+  {
+    "type": "directory",
+    "oid": "ef18cb3b18c6f9c80877543fb03cff15fa0d1f35",
+    "size": 0,
+    "path": "miracl-v1.0-th/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "f57c770d5a8055a552b10e0bb48dbb7120062ba2",
+    "size": 0,
+    "path": "miracl-v1.0-th/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "416311b968e12fcbc118ded3dd7383c4f1cd06e1",
+    "size": 0,
+    "path": "miracl-v1.0-yo"
+  },
+  {
+    "type": "directory",
+    "oid": "cfa931e2b4f3f0e46b2d6e8920c718993d8c38c2",
+    "size": 0,
+    "path": "miracl-v1.0-yo/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "1e46cdaefa52784e0de05fc3dcf3324eac0926df",
+    "size": 0,
+    "path": "miracl-v1.0-yo/topics"
+  },
+  {
+    "type": "directory",
+    "oid": "9992e34ca339f5daafb9a61b5b1c71ed0ec96430",
+    "size": 0,
+    "path": "miracl-v1.0-zh"
+  },
+  {
+    "type": "directory",
+    "oid": "b3157ba2db9cfa2d646611c1ecdce4e3bb2179f4",
+    "size": 0,
+    "path": "miracl-v1.0-zh/qrels"
+  },
+  {
+    "type": "directory",
+    "oid": "c3c3b456853dfe1a1ce9fed1e09ac3118e16b2ef",
+    "size": 0,
+    "path": "miracl-v1.0-zh/topics"
+  },
+  {
+    "type": "file",
+    "oid": "91382cc7fb6f9003e1f7ed36187d86d531dbead1",
+    "size": 2126,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "328c8bd054189d17c9969f1d854a54003ad2f672",
+    "size": 3557,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "e59a6f7aa0c5d1c4c73f2fdf7e46552154b7e061",
+    "size": 572724,
+    "path": "miracl-v1.0-ar/qrels/qrels.miracl-v1.0-ar-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "431741270c5af33ce7a8899947fac8e8506d47ae",
+    "size": 510548,
+    "path": "miracl-v1.0-ar/qrels/qrels.miracl-v1.0-ar-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "4d74fbf5d3bd52e2d78fd604cb75d4b6e7a55596",
+    "size": 174692,
+    "path": "miracl-v1.0-ar/topics/topics.miracl-v1.0-ar-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "753e34f1ca7a38f763a5f275bec321b11a84ee5e",
+    "size": 58270,
+    "path": "miracl-v1.0-ar/topics/topics.miracl-v1.0-ar-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "96ad82ca1acf3a790649063ad6c9582a1218c7fd",
+    "size": 95063,
+    "path": "miracl-v1.0-ar/topics/topics.miracl-v1.0-ar-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "63cbf96515bd3887e52de5f24eb321330501b967",
+    "size": 212525,
+    "path": "miracl-v1.0-ar/topics/topics.miracl-v1.0-ar-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "f82a77050bad01f9822de1d5bfd3b805afe16e27",
+    "size": 75970,
+    "path": "miracl-v1.0-bn/qrels/qrels.miracl-v1.0-bn-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "cd45074f9772128a5db47e49d99dda6150eee0a8",
+    "size": 302570,
+    "path": "miracl-v1.0-bn/qrels/qrels.miracl-v1.0-bn-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "73f6a658ecc54eb8ed1fd9d4c15ae06b58c2681c",
+    "size": 53473,
+    "path": "miracl-v1.0-bn/topics/topics.miracl-v1.0-bn-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "8853e383de760aa8c90425cec7c1c15a1a74cc7c",
+    "size": 14749,
+    "path": "miracl-v1.0-bn/topics/topics.miracl-v1.0-bn-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "719bf081dc1afcab1b493231b7959ad30c3166c1",
+    "size": 135842,
+    "path": "miracl-v1.0-bn/topics/topics.miracl-v1.0-bn-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "e8b0fc01a7856bc860e9ca13924c69e8bc4f73e2",
+    "size": 212262,
+    "path": "miracl-v1.0-bn/topics/topics.miracl-v1.0-bn-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "327c8771fa4538462d21f78caff3955ee8370ab0",
+    "size": 77351,
+    "path": "miracl-v1.0-de/qrels/qrels.miracl-v1.0-de-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "80fdaf477268d23fc3090992f3bfed17807c982f",
+    "size": 17620,
+    "path": "miracl-v1.0-de/topics/topics.miracl-v1.0-de-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "08c2b6f8be6e932d02dd787aa79683e89bd0def6",
+    "size": 40042,
+    "path": "miracl-v1.0-de/topics/topics.miracl-v1.0-de-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "59765e9dec29ec569c4f308078931cb7cfa90326",
+    "size": 167817,
+    "path": "miracl-v1.0-en/qrels/qrels.miracl-v1.0-en-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "cb91af16663c6576a78e3f24f5e08504931d5d80",
+    "size": 589618,
+    "path": "miracl-v1.0-en/qrels/qrels.miracl-v1.0-en-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "02e83ab64d97e9ec47b3cbf327de6eeec206cd21",
+    "size": 36782,
+    "path": "miracl-v1.0-en/topics/topics.miracl-v1.0-en-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "9678efd1592be7088b7a9455d53552a328836a32",
+    "size": 34135,
+    "path": "miracl-v1.0-en/topics/topics.miracl-v1.0-en-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "2b9f436577b477359a960dd602723bc6c985760e",
+    "size": 109792,
+    "path": "miracl-v1.0-en/topics/topics.miracl-v1.0-en-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "10a035d24d3f6e4c73a0b252ef9d69e8dcb93ddc",
+    "size": 128428,
+    "path": "miracl-v1.0-en/topics/topics.miracl-v1.0-en-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "1ac19f2c3331e3cd5c46a09d6b7afce88f966f88",
+    "size": 157701,
+    "path": "miracl-v1.0-es/qrels/qrels.miracl-v1.0-es-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "ecad8a262fdb164d48126c9502dfdae75fd57b81",
+    "size": 526487,
+    "path": "miracl-v1.0-es/qrels/qrels.miracl-v1.0-es-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "5f1214eef3e0eb710aaea37b08149a2797373b42",
+    "size": 39616,
+    "path": "miracl-v1.0-es/topics/topics.miracl-v1.0-es-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "f1239bfc954fc4920e72ca97835989b5c187874f",
+    "size": 92357,
+    "path": "miracl-v1.0-es/topics/topics.miracl-v1.0-es-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "0413a01fe664cb2ebc6392c86c95cc70636caed4",
+    "size": 131489,
+    "path": "miracl-v1.0-es/topics/topics.miracl-v1.0-es-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "9467d9f115282c8b5fadbc3ac8ecc8a92bd8b3e1",
+    "size": 157653,
+    "path": "miracl-v1.0-fa/qrels/qrels.miracl-v1.0-fa-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "5b99bb40f82909bc144142501ac5c808c20d98b2",
+    "size": 525158,
+    "path": "miracl-v1.0-fa/qrels/qrels.miracl-v1.0-fa-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "00a656161158c8dafe2c27635d7d8c2e3859a528",
+    "size": 54322,
+    "path": "miracl-v1.0-fa/topics/topics.miracl-v1.0-fa-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "ddd0fc2877f3e72c80da0943baac116509d74c05",
+    "size": 124918,
+    "path": "miracl-v1.0-fa/topics/topics.miracl-v1.0-fa-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "4b31b5fb03fc7bbda37cde0109b043d685f153f6",
+    "size": 180570,
+    "path": "miracl-v1.0-fa/topics/topics.miracl-v1.0-fa-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "642313c836b4916071475444f6bb9f4dceae138e",
+    "size": 226188,
+    "path": "miracl-v1.0-fi/qrels/qrels.miracl-v1.0-fi-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "8d7cc40ee8f76c57e763d9f60067f480dde7ba96",
+    "size": 381821,
+    "path": "miracl-v1.0-fi/qrels/qrels.miracl-v1.0-fi-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "4803ebeccc2bcea9c65a760372e306f514a1213f",
+    "size": 58112,
+    "path": "miracl-v1.0-fi/topics/topics.miracl-v1.0-fi-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "9518def4bc0a839799c1b8aac8d72a48814fe0c6",
+    "size": 47863,
+    "path": "miracl-v1.0-fi/topics/topics.miracl-v1.0-fi-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "9fb12aa426963f8d1948f91d2f2ede4d508eaf6c",
+    "size": 33471,
+    "path": "miracl-v1.0-fi/topics/topics.miracl-v1.0-fi-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "871cf6dd7ff2923da901cc2bc113b062afe3abf0",
+    "size": 129620,
+    "path": "miracl-v1.0-fi/topics/topics.miracl-v1.0-fi-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "435acd37bf0e06d57a280126942670ec95516d3e",
+    "size": 84975,
+    "path": "miracl-v1.0-fr/qrels/qrels.miracl-v1.0-fr-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "69ff98419145636ffe6203c7bef20568d8aae6e1",
+    "size": 283176,
+    "path": "miracl-v1.0-fr/qrels/qrels.miracl-v1.0-fr-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "26db8267fd244e934308d6f5153416447d0eb746",
+    "size": 19375,
+    "path": "miracl-v1.0-fr/topics/topics.miracl-v1.0-fr-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "4d1c5c043559af1f59c999022a7001a20c793157",
+    "size": 45335,
+    "path": "miracl-v1.0-fr/topics/topics.miracl-v1.0-fr-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "56779832f5da2fc9a50deb54ea4fef8e54867596",
+    "size": 64472,
+    "path": "miracl-v1.0-fr/topics/topics.miracl-v1.0-fr-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "5aba12e7f8fb9c6f7563d2a408563de974ca9595",
+    "size": 79771,
+    "path": "miracl-v1.0-hi/qrels/qrels.miracl-v1.0-hi-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "ae80f84a92a70b7f49c8ff69593f91aa779687d5",
+    "size": 266412,
+    "path": "miracl-v1.0-hi/qrels/qrels.miracl-v1.0-hi-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "289fdf25ecaddd9ee4f803bc7980e35d4556b967",
+    "size": 52022,
+    "path": "miracl-v1.0-hi/topics/topics.miracl-v1.0-hi-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "965ad4dcb166811d15e259e44a6c9f4aac978d1a",
+    "size": 120565,
+    "path": "miracl-v1.0-hi/topics/topics.miracl-v1.0-hi-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "d866b5a8175a450e24f92e938588bf67431337c4",
+    "size": 169941,
+    "path": "miracl-v1.0-hi/topics/topics.miracl-v1.0-hi-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "3ebfc6642d67f58330d703c976f58ac293293c3c",
+    "size": 176946,
+    "path": "miracl-v1.0-id/qrels/qrels.miracl-v1.0-id-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "313e4124d9d88453cf11536cbec4789e67fcbedc",
+    "size": 758155,
+    "path": "miracl-v1.0-id/qrels/qrels.miracl-v1.0-id-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "0f1a9728de357c94441585734e5568ee5198f7e4",
+    "size": 42043,
+    "path": "miracl-v1.0-id/topics/topics.miracl-v1.0-id-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "35a7d30411900466f7f3aef991bd7854238b7378",
+    "size": 33832,
+    "path": "miracl-v1.0-id/topics/topics.miracl-v1.0-id-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "701e794f690ec2387a88b7a5e0eab3740d47f7d7",
+    "size": 24834,
+    "path": "miracl-v1.0-id/topics/topics.miracl-v1.0-id-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "5bdb5be09c03b7bef8b6118f05014f2a56989185",
+    "size": 174924,
+    "path": "miracl-v1.0-id/topics/topics.miracl-v1.0-id-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "5d6cf7982533e5fb61bcd78b848d44b03d305b2d",
+    "size": 160882,
+    "path": "miracl-v1.0-ja/qrels/qrels.miracl-v1.0-ja-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "37f8b8a206c261ee69d62239242b0c88095e5adf",
+    "size": 663060,
+    "path": "miracl-v1.0-ja/qrels/qrels.miracl-v1.0-ja-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "a092d73d4ec6236cdd75d97091c378e6f1e54a71",
+    "size": 50019,
+    "path": "miracl-v1.0-ja/topics/topics.miracl-v1.0-ja-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "50d7e3316cf0150ab4eabe114560b3a51d46d19a",
+    "size": 38489,
+    "path": "miracl-v1.0-ja/topics/topics.miracl-v1.0-ja-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "d1116a325ad4083ded8e0b0f8da87a9627e5b501",
+    "size": 66260,
+    "path": "miracl-v1.0-ja/topics/topics.miracl-v1.0-ja-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "16a77f7451e736bc8fc499a09f7220ee6fe64005",
+    "size": 200188,
+    "path": "miracl-v1.0-ja/topics/topics.miracl-v1.0-ja-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "a8cb5029e4731570c92e9e727d07cefbf8bede95",
+    "size": 55675,
+    "path": "miracl-v1.0-ko/qrels/qrels.miracl-v1.0-ko-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "c43c18400e0e9c66813aca4d82d69f532ecd09fd",
+    "size": 232882,
+    "path": "miracl-v1.0-ko/qrels/qrels.miracl-v1.0-ko-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "b8d7a91d8a230859b8a83598f90584bedb6ce9be",
+    "size": 12597,
+    "path": "miracl-v1.0-ko/topics/topics.miracl-v1.0-ko-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "3e03af1b28cbfefd0954f6a8a1e128df2b91c9ee",
+    "size": 16716,
+    "path": "miracl-v1.0-ko/topics/topics.miracl-v1.0-ko-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "efe1ceeb1183e77629b5b9655691f99a208ae2a3",
+    "size": 74893,
+    "path": "miracl-v1.0-ko/topics/topics.miracl-v1.0-ko-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "967306ebffb1606a202bfbacb1158879d496b8d0",
+    "size": 53825,
+    "path": "miracl-v1.0-ko/topics/topics.miracl-v1.0-ko-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "351e800d2734f8a9dd776a8777e607ebc284d078",
+    "size": 255921,
+    "path": "miracl-v1.0-ru/qrels/qrels.miracl-v1.0-ru-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "f6e3384655710aaae6e51ceb715ec8d9af68dcc3",
+    "size": 663142,
+    "path": "miracl-v1.0-ru/qrels/qrels.miracl-v1.0-ru-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "c8ac8d871938adc6530971e0df5f8515d6104741",
+    "size": 108525,
+    "path": "miracl-v1.0-ru/topics/topics.miracl-v1.0-ru-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "4ff3c2198736a47590e2217d34d85ffbd562713c",
+    "size": 83173,
+    "path": "miracl-v1.0-ru/topics/topics.miracl-v1.0-ru-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "da091c1c76253d9154cb82ebe836bc546bbed336",
+    "size": 53644,
+    "path": "miracl-v1.0-ru/topics/topics.miracl-v1.0-ru-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "57b9992519f1773a08b5b83f26f295fc155fac13",
+    "size": 406366,
+    "path": "miracl-v1.0-ru/topics/topics.miracl-v1.0-ru-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "16de1bce2c7902d58506ae06a191f7328e21cdce",
+    "size": 89581,
+    "path": "miracl-v1.0-sw/qrels/qrels.miracl-v1.0-sw-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "c078bf2f22913e88d207f711cecf0d32abe80586",
+    "size": 166752,
+    "path": "miracl-v1.0-sw/qrels/qrels.miracl-v1.0-sw-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "1f533348dd8c11e2649ab55022b485cfb13e322c",
+    "size": 21465,
+    "path": "miracl-v1.0-sw/topics/topics.miracl-v1.0-sw-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "e9517b8d694e0130a5ae196aec6f52281ab93143",
+    "size": 30603,
+    "path": "miracl-v1.0-sw/topics/topics.miracl-v1.0-sw-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "9871c4180be7084a70c12189f995181f4b209569",
+    "size": 22874,
+    "path": "miracl-v1.0-sw/topics/topics.miracl-v1.0-sw-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "7bd11f31e51d4378c8b7f1ab81d78029c552fcd5",
+    "size": 84980,
+    "path": "miracl-v1.0-sw/topics/topics.miracl-v1.0-sw-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "13a39014305ae1e78dec46db19b8bc48b0d82e42",
+    "size": 28814,
+    "path": "miracl-v1.0-te/qrels/qrels.miracl-v1.0-te-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "4d43e788f58ba5fbfaa8409e0edaa8daf3c89f4e",
+    "size": 334413,
+    "path": "miracl-v1.0-te/qrels/qrels.miracl-v1.0-te-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "03c800fa1ab8cfff75284c091b62da480e71d9a2",
+    "size": 90134,
+    "path": "miracl-v1.0-te/topics/topics.miracl-v1.0-te-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "74b79f4e036abf7b0d8588702c990c8ef77cb2b0",
+    "size": 63949,
+    "path": "miracl-v1.0-te/topics/topics.miracl-v1.0-te-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "f46740c4d5c3185fbb0005e75457a9ac5fc6f930",
+    "size": 82445,
+    "path": "miracl-v1.0-te/topics/topics.miracl-v1.0-te-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "2b3136a3f86cf1da412a77bcf71e18cfa3349722",
+    "size": 375820,
+    "path": "miracl-v1.0-te/topics/topics.miracl-v1.0-te-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "c458df217453f859933246a325cb55c7b4b580e8",
+    "size": 139845,
+    "path": "miracl-v1.0-th/qrels/qrels.miracl-v1.0-th-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "3c449322118f0abe83d9ea580cd2fb105bd8ebf4",
+    "size": 395454,
+    "path": "miracl-v1.0-th/qrels/qrels.miracl-v1.0-th-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "a4da5b53913e9092801aa329ec8f9994088e7b8e",
+    "size": 94299,
+    "path": "miracl-v1.0-th/topics/topics.miracl-v1.0-th-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "902eaf0a2ea3502dda15591d9dc873afd50119bd",
+    "size": 126527,
+    "path": "miracl-v1.0-th/topics/topics.miracl-v1.0-th-test-a.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "a09296cdbfa45e39b6989448c5b81fc3dcaad27b",
+    "size": 71664,
+    "path": "miracl-v1.0-th/topics/topics.miracl-v1.0-th-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "6aeb7a0c1abe346d06ff7da97542831e5a0b259a",
+    "size": 379671,
+    "path": "miracl-v1.0-th/topics/topics.miracl-v1.0-th-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "3fa8054d91e46cb288d539e8dbe78a1287ddb899",
+    "size": 24820,
+    "path": "miracl-v1.0-yo/qrels/qrels.miracl-v1.0-yo-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "8a69b224903405376abc1416c372e2a66c43693c",
+    "size": 5983,
+    "path": "miracl-v1.0-yo/topics/topics.miracl-v1.0-yo-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "d29974b9cf7869eae283855d1f48771b246ebc2a",
+    "size": 14289,
+    "path": "miracl-v1.0-yo/topics/topics.miracl-v1.0-yo-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "f0cfe7d4e34b0646f47321b72954d2337e89213f",
+    "size": 94140,
+    "path": "miracl-v1.0-zh/qrels/qrels.miracl-v1.0-zh-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "9a680abe2b4a47101c8e4360a25e9fdb503663f9",
+    "size": 314756,
+    "path": "miracl-v1.0-zh/qrels/qrels.miracl-v1.0-zh-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "9743ec82a5d46db4815d383f3fc4f6b7b196bf68",
+    "size": 16903,
+    "path": "miracl-v1.0-zh/topics/topics.miracl-v1.0-zh-dev.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "3dd67fb2dbde98bd4d42a994885e61835fe3c31a",
+    "size": 39712,
+    "path": "miracl-v1.0-zh/topics/topics.miracl-v1.0-zh-test-b.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "8843ee28c9fdd106acde5646e6068aa48e4a98ff",
+    "size": 57079,
+    "path": "miracl-v1.0-zh/topics/topics.miracl-v1.0-zh-train.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "3d8665b7f5fb11a7499821ea83f27fdfd156e2af",
+    "size": 6486,
+    "path": "miracl.py"
+  }
+]

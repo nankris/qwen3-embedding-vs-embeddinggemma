@@ -1,0 +1,19 @@
+{
+  "gpu": "NVIDIA L4",
+  "rate_cu_per_hour": 1.54,
+  "interrupted_start_utc": "2026-10-17T05:58:23.831355+00:00",
+  "interrupted_last_observed_utc": "2026-10-17T06:15:56.418235+00:00",
+  "interrupted_pruned_utc": "2026-10-17T06:56:25.735510+00:00",
+  "interrupted_cu_bounds": [
+    0.4502732764444445,
+    1.4894812218611113
+  ],
+  "resumed_start_utc": "2026-10-17T06:57:19.782457+00:00",
+  "resumed_stop_utc": "2026-10-17T07:11:34.194116+00:00",
+  "resumed_lifetime_estimated_cu": 0.36549832079444444,
+  "total_cu_bounds": [
+    0.8157715972388889,
+    1.8549795426555558
+  ],
+  "limitation": "Lifetime \u00d7 marginal rate estimates, not exact billing. Old termination time unavailable; pruning timestamp is an upper bound. Account-wide balance changes are not attributable to this experiment."
+}

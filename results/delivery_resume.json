@@ -1,0 +1,6 @@
+{
+  "resumed_utc": "2026-10-17T07:23:02Z",
+  "gpu_work": "already completed; no allocation needed",
+  "cpu_log": "figures/cpu_delivery_run.txt",
+  "prior_completed_cpu_timings": 0
+}

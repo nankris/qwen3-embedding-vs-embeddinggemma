@@ -1,0 +1,176 @@
+[
+  {
+    "file": "bge_arguana_top100.json",
+    "queries_verified": 1406,
+    "corpus_docs": 8674
+  },
+  {
+    "file": "bge_miracl_hi_top100.json",
+    "queries_verified": 200,
+    "corpus_docs": 1423
+  },
+  {
+    "file": "bge_miracl_te_top100.json",
+    "queries_verified": 200,
+    "corpus_docs": 1223
+  },
+  {
+    "file": "bge_nfcorpus_top100.json",
+    "queries_verified": 323,
+    "corpus_docs": 3633
+  },
+  {
+    "file": "bge_scifact_top100.json",
+    "queries_verified": 300,
+    "corpus_docs": 5183
+  },
+  {
+    "file": "gemma_arguana_top100.json",
+    "queries_verified": 1406,
+    "corpus_docs": 8674
+  },
+  {
+    "file": "gemma_miracl_hi_top100.json",
+    "queries_verified": 200,
+    "corpus_docs": 1423
+  },
+  {
+    "file": "gemma_miracl_te_top100.json",
+    "queries_verified": 200,
+    "corpus_docs": 1223
+  },
+  {
+    "file": "gemma_nfcorpus_top100.json",
+    "queries_verified": 323,
+    "corpus_docs": 3633
+  },
+  {
+    "file": "gemma_scifact_top100.json",
+    "queries_verified": 300,
+    "corpus_docs": 5183
+  },
+  {
+    "file": "qwen_arguana_top100.json",
+    "queries_verified": 1406,
+    "corpus_docs": 8674
+  },
+  {
+    "file": "qwen_miracl_hi_top100.json",
+    "queries_verified": 200,
+    "corpus_docs": 1423
+  },
+  {
+    "file": "qwen_miracl_te_top100.json",
+    "queries_verified": 200,
+    "corpus_docs": 1223
+  },
+  {
+    "file": "qwen_nfcorpus_top100.json",
+    "queries_verified": 323,
+    "corpus_docs": 3633
+  },
+  {
+    "file": "qwen_scifact_top100.json",
+    "queries_verified": 300,
+    "corpus_docs": 5183
+  }
+]
+model   dataset    metric     mean       lo       hi  queries
+ qwen   scifact    ndcg10 0.698383 0.654554 0.739491      300
+ qwen   scifact  recall10 0.826556 0.783667 0.866444      300
+ qwen   scifact recall100 0.950000 0.923333 0.973333      300
+gemma   scifact    ndcg10 0.853170 0.819998 0.884488      300
+gemma   scifact  recall10 0.943667 0.916667 0.967333      300
+gemma   scifact recall100 0.980000 0.963333 0.993333      300
+  bge   scifact    ndcg10 0.709183 0.665843 0.751252      300
+  bge   scifact  recall10 0.829556 0.786000 0.870444      300
+  bge   scifact recall100 0.945000 0.918333 0.970000      300
+ qwen  nfcorpus    ndcg10 0.364353 0.328310 0.400402      323
+ qwen  nfcorpus  recall10 0.174661 0.148608 0.202317      323
+ qwen  nfcorpus recall100 0.341241 0.311282 0.371714      323
+gemma  nfcorpus    ndcg10 0.369414 0.334807 0.404343      323
+gemma  nfcorpus  recall10 0.186325 0.159205 0.214642      323
+gemma  nfcorpus recall100 0.363755 0.332284 0.395407      323
+  bge  nfcorpus    ndcg10 0.345327 0.309800 0.381259      323
+  bge  nfcorpus  recall10 0.161710 0.136769 0.187765      323
+  bge  nfcorpus recall100 0.311369 0.281569 0.341766      323
+ qwen   arguana    ndcg10 0.679021 0.662374 0.695817     1406
+ qwen   arguana  recall10 0.930299 0.916785 0.943119     1406
+ qwen   arguana recall100 0.995733 0.992176 0.998578     1406
+gemma   arguana    ndcg10 0.591439 0.571864 0.610009     1406
+gemma   arguana  recall10 0.847084 0.827881 0.865576     1406
+gemma   arguana recall100 0.981508 0.974395 0.987909     1406
+  bge   arguana    ndcg10 0.604399 0.585941 0.622999     1406
+  bge   arguana  recall10 0.860597 0.842105 0.878378     1406
+  bge   arguana recall100 0.987909 0.981508 0.992888     1406
+ qwen miracl_hi    ndcg10 0.930385 0.905833 0.953360      200
+ qwen miracl_hi  recall10 0.981012 0.963689 0.994286      200
+ qwen miracl_hi recall100 1.000000 1.000000 1.000000      200
+gemma miracl_hi    ndcg10 0.949928 0.928638 0.968781      200
+gemma miracl_hi  recall10 0.988810 0.975238 0.998571      200
+gemma miracl_hi recall100 1.000000 1.000000 1.000000      200
+  bge miracl_hi    ndcg10 0.017668 0.005057 0.034086      200
+  bge miracl_hi  recall10 0.024742 0.006964 0.045993      200
+  bge miracl_hi recall100 0.121099 0.083944 0.161657      200
+ qwen miracl_te    ndcg10 0.975145 0.957055 0.989772      200
+ qwen miracl_te  recall10 0.995000 0.985000 1.000000      200
+ qwen miracl_te recall100 1.000000 1.000000 1.000000      200
+gemma miracl_te    ndcg10 0.988678 0.976946 0.997500      200
+gemma miracl_te  recall10 0.996667 0.991667 1.000000      200
+gemma miracl_te recall100 1.000000 1.000000 1.000000      200
+  bge miracl_te    ndcg10 0.012405 0.001751 0.026841      200
+  bge miracl_te  recall10 0.018333 0.003333 0.038333      200
+  bge miracl_te recall100 0.089167 0.052500 0.129167      200
+ qwen     macro    ndcg10 0.580586 0.561239 0.599634     2029
+ qwen     macro  recall10 0.643838 0.626455 0.660835     2029
+ qwen     macro recall100 0.762324 0.749025 0.775201     2029
+gemma     macro    ndcg10 0.604674 0.587484 0.621334     2029
+gemma     macro  recall10 0.659025 0.645066 0.672964     2029
+gemma     macro recall100 0.775088 0.762743 0.787126     2029
+  bge     macro    ndcg10 0.552970 0.533404 0.572249     2029
+  bge     macro  recall10 0.617288 0.599923 0.634595     2029
+  bge     macro recall100 0.748093 0.734652 0.761243     2029
+[
+  {
+    "model": "qwen",
+    "dataset": "scifact",
+    "queries": 300,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "qwen",
+    "dataset": "nfcorpus",
+    "queries": 323,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "qwen",
+    "dataset": "arguana",
+    "queries": 1406,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "scifact",
+    "queries": 300,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "nfcorpus",
+    "queries": 323,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "arguana",
+    "queries": 1406,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  }
+]

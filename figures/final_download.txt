@@ -1,0 +1,3 @@
+snapshot bytes 13655123
+[colab] Downloaded '/content/exp098_snapshot.tar.gz' to 'results/resume_snapshot.tar.gz'
+GPU archive merged; final GPU metadata retained separately until CPU completion

@@ -1,0 +1,123 @@
+Sat Oct 17 07:10:35 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L4                      Off |   00000000:00:03.0 Off |                    0 |
+| N/A   66C    P8             20W /   72W |       0MiB /  23034MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+resume_run.log o,'revision':rev,'parameters':sum(p.numel() for p in m.parameters()),'embedding_dim':m.get_sentence_embedding_dimension(),'max_seq_length':m.max_seq_length,'prompts':m.prompts,'architecture':str(m),'transformers_version':sys.modules['transformers'].__version__,'sentence_transformers_version':sys.modules['sentence_transformers'].__version__})
+SPEED qwen cuda 53.698383455616494 docs/s 9.31126726399998 seconds
+EVAL qwen scifact 300 queries 5183 docs 101.045741077 seconds
+EVAL qwen nfcorpus 323 queries 3633 docs 82.62847230800003 seconds
+EVAL qwen arguana 1406 queries 8674 docs 128.27230906499994 seconds
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3640.48it/s]
+LOADED bge seconds 7.95514042800005
+/content/run_eval.py:47: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  save(R/(k+'_model.json'),{'repo':repo,'revision':rev,'parameters':sum(p.numel() for p in m.parameters()),'embedding_dim':m.get_sentence_embedding_dimension(),'max_seq_length':m.max_seq_length,'prompts':m.prompts,'architecture':str(m),'transformers_version':sys.modules['transformers'].__version__,'sentence_transformers_version':sys.modules['sentence_transformers'].__version__})
+SPEED bge cuda 435.8519471920082 docs/s 1.147178538999924 seconds
+EVAL bge scifact 300 queries 5183 docs 12.07532914400008 seconds
+EVAL bge nfcorpus 323 queries 3633 docs 9.237109273999977 seconds
+EVAL bge arguana 1406 queries 8674 docs 19.31334115599998 seconds
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 310/310 [00:00<00:00, 5165.73it/s]
+MINI qwen hi 200 1423
+MINI qwen te 200 1223
+
+Loading weights:   0%|          | 0/413 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 413/413 [00:00<00:00, 5033.98it/s]
+MINI gemma hi 200 1423
+MINI gemma te 200 1223
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3586.25it/s]
+MINI bge hi 200 1423
+MINI bge te 200 1223
+
+resume_pipeline.log 
+complete.json {"completed_utc": "2026-10-17T07:09:47Z"}
+analysis_done ok
+analysis.log mma miracl_hi recall100 1.000000 1.000000 1.000000      200
+  bge miracl_hi    ndcg10 0.017668 0.005057 0.034086      200
+  bge miracl_hi  recall10 0.024742 0.006964 0.045993      200
+  bge miracl_hi recall100 0.121099 0.083944 0.161657      200
+ qwen miracl_te    ndcg10 0.975145 0.957055 0.989772      200
+ qwen miracl_te  recall10 0.995000 0.985000 1.000000      200
+ qwen miracl_te recall100 1.000000 1.000000 1.000000      200
+gemma miracl_te    ndcg10 0.988678 0.976946 0.997500      200
+gemma miracl_te  recall10 0.996667 0.991667 1.000000      200
+gemma miracl_te recall100 1.000000 1.000000 1.000000      200
+  bge miracl_te    ndcg10 0.012405 0.001751 0.026841      200
+  bge miracl_te  recall10 0.018333 0.003333 0.038333      200
+  bge miracl_te recall100 0.089167 0.052500 0.129167      200
+ qwen     macro    ndcg10 0.580586 0.561239 0.599634     2029
+ qwen     macro  recall10 0.643838 0.626455 0.660835     2029
+ qwen     macro recall100 0.762324 0.749025 0.775201     2029
+gemma     macro    ndcg10 0.604674 0.587484 0.621334     2029
+gemma     macro  recall10 0.659025 0.645066 0.672964     2029
+gemma     macro recall100 0.775088 0.762743 0.787126     2029
+  bge     macro    ndcg10 0.552970 0.533404 0.572249     2029
+  bge     macro  recall10 0.617288 0.599923 0.634595     2029
+  bge     macro recall100 0.748093 0.734652 0.761243     2029
+[
+  {
+    "model": "qwen",
+    "dataset": "scifact",
+    "queries": 300,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "qwen",
+    "dataset": "nfcorpus",
+    "queries": 323,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "qwen",
+    "dataset": "arguana",
+    "queries": 1406,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "scifact",
+    "queries": 300,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "nfcorpus",
+    "queries": 323,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  },
+  {
+    "model": "bge",
+    "dataset": "arguana",
+    "queries": 1406,
+    "changed_queries": 0,
+    "max_metric_abs_difference": 0.0
+  }
+]
+
+metric files ['bge_arguana_metrics.csv', 'bge_miracl_hi_metrics.csv', 'bge_miracl_te_metrics.csv', 'bge_nfcorpus_metrics.csv', 'bge_scifact_metrics.csv', 'gemma_arguana_metrics.csv', 'gemma_miracl_hi_metrics.csv', 'gemma_miracl_te_metrics.csv', 'gemma_nfcorpus_metrics.csv', 'gemma_scifact_metrics.csv', 'qwen_arguana_metrics.csv', 'qwen_miracl_hi_metrics.csv', 'qwen_miracl_te_metrics.csv', 'qwen_nfcorpus_metrics.csv', 'qwen_scifact_metrics.csv']

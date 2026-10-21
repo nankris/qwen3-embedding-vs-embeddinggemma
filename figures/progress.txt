@@ -1,0 +1,27 @@
+name, utilization.gpu [%], memory.used [MiB]
+NVIDIA L4, 100 %, 2740 MiB
+run.log 
+EVAL bge scifact 300 queries 5183 docs 11.58717002100002 seconds
+EVAL bge nfcorpus 323 queries 3633 docs 8.94368974200006 seconds
+EVAL bge arguana 1406 queries 8674 docs 18.416059581000013 seconds
+LOADED gemma seconds 17.883577044999925
+SPEED gemma cuda 101.90040436960003 docs/s 4.906751873000076 seconds
+EVAL gemma scifact 300 queries 5183 docs 52.522385690999954 seconds
+EVAL gemma nfcorpus 323 queries 3633 docs 42.06029436500012 seconds
+EVAL gemma arguana 1406 queries 8674 docs 69.73462300799997 seconds
+CONSISTENT STACK repeat: all final English results use Transformers main
+LOADED qwen seconds 4.565434508999942
+SPEED qwen cuda 51.807672162505874 docs/s 9.65108021900005 seconds
+EVAL qwen scifact 300 queries 5183 docs 103.14281624499995 seconds
+mini.log 
+MINI qwen hi 200 1423
+MINI qwen te 200 1223
+MINI gemma hi 200 1423
+MINI gemma te 200 1223
+MINI bge hi 200 1423
+MINI bge te 200 1223
+pipeline.log 
+PIPELINE DONE 1792217568.8699052
+consistent_stack.log 
+
+metrics ['gemma_nfcorpus_metrics.csv', 'qwen_miracl_te_metrics.csv', 'gemma_scifact_metrics.csv', 'bge_miracl_hi_metrics.csv', 'qwen_miracl_hi_metrics.csv', 'bge_miracl_te_metrics.csv', 'gemma_miracl_hi_metrics.csv', 'qwen_scifact_metrics.csv', 'gemma_miracl_te_metrics.csv', 'gemma_arguana_metrics.csv']

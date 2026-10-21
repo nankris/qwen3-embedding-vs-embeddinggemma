@@ -1,0 +1,27 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 4075.46it/s]
+LOADED qwen seconds 24.87433206200012
+/content/run_eval.py:47: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  save(R/(k+'_model.json'),{'repo':repo,'revision':rev,'parameters':sum(p.numel() for p in m.parameters()),'embedding_dim':m.get_sentence_embedding_dimension(),'max_seq_length':m.max_seq_length,'prompts':m.prompts,'architecture':str(m),'transformers_version':sys.modules['transformers'].__version__,'sentence_transformers_version':sys.modules['sentence_transformers'].__version__})
+SPEED qwen cuda 53.698383455616494 docs/s 9.31126726399998 seconds
+EVAL qwen scifact 300 queries 5183 docs 101.045741077 seconds
+EVAL qwen nfcorpus 323 queries 3633 docs 82.62847230800003 seconds
+EVAL qwen arguana 1406 queries 8674 docs 128.27230906499994 seconds
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3640.48it/s]
+LOADED bge seconds 7.95514042800005
+/content/run_eval.py:47: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  save(R/(k+'_model.json'),{'repo':repo,'revision':rev,'parameters':sum(p.numel() for p in m.parameters()),'embedding_dim':m.get_sentence_embedding_dimension(),'max_seq_length':m.max_seq_length,'prompts':m.prompts,'architecture':str(m),'transformers_version':sys.modules['transformers'].__version__,'sentence_transformers_version':sys.modules['sentence_transformers'].__version__})
+SPEED bge cuda 435.8519471920082 docs/s 1.147178538999924 seconds
+EVAL bge scifact 300 queries 5183 docs 12.07532914400008 seconds
+EVAL bge nfcorpus 323 queries 3633 docs 9.237109273999977 seconds
+EVAL bge arguana 1406 queries 8674 docs 19.31334115599998 seconds
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 5165.73it/s]
+MINI qwen hi 200 1423
+MINI qwen te 200 1223
+Loading weights:   0%|          | 0/413 [00:00<?, ?it/s]Loading weights: 100%|██████████| 413/413 [00:00<00:00, 5033.98it/s]
+MINI gemma hi 200 1423
+MINI gemma te 200 1223
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3586.25it/s]
+MINI bge hi 200 1423
+MINI bge te 200 1223

@@ -1,0 +1,236 @@
+{
+  "_id": "687954d31ba4287d60fdc4e1",
+  "id": "google/embeddinggemma-300m",
+  "private": false,
+  "pipeline_tag": "sentence-similarity",
+  "library_name": "sentence-transformers",
+  "tags": [
+    "sentence-transformers",
+    "safetensors",
+    "gemma3_text",
+    "sentence-similarity",
+    "feature-extraction",
+    "text-embeddings-inference",
+    "arxiv:2509.20354",
+    "license:gemma",
+    "eval-results",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 3028857,
+  "likes": 2031,
+  "modelId": "google/embeddinggemma-300m",
+  "author": "google",
+  "sha": "57c266a740f537b4dc058e1b0cda161fd15afa75",
+  "lastModified": "2025-09-25T15:11:17.000Z",
+  "gated": "manual",
+  "disabled": false,
+  "widgetData": [
+    {
+      "source_sentence": "That is a happy person",
+      "sentences": [
+        "That is a happy dog",
+        "That is a very happy person",
+        "Today is a sunny day"
+      ]
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Gemma3TextModel"
+    ],
+    "model_type": "gemma3_text",
+    "tokenizer_config": {
+      "bos_token": "<bos>",
+      "eos_token": "<eos>",
+      "pad_token": "<pad>",
+      "unk_token": "<unk>",
+      "use_default_system_prompt": false
+    }
+  },
+  "cardData": {
+    "license": "gemma",
+    "pipeline_tag": "sentence-similarity",
+    "library_name": "sentence-transformers",
+    "tags": [
+      "sentence-transformers",
+      "sentence-similarity",
+      "feature-extraction",
+      "text-embeddings-inference"
+    ],
+    "extra_gated_heading": "Access EmbeddingGemma on Hugging Face",
+    "extra_gated_prompt": "To access EmbeddingGemma on Hugging Face, you\u2019re required to review and agree to Google\u2019s usage license. To do this, please ensure you\u2019re logged in to Hugging Face and click below. Requests are processed immediately.",
+    "extra_gated_button_content": "Acknowledge license"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "1_Pooling/config.json"
+    },
+    {
+      "rfilename": "2_Dense/config.json"
+    },
+    {
+      "rfilename": "2_Dense/model.safetensors"
+    },
+    {
+      "rfilename": "3_Dense/config.json"
+    },
+    {
+      "rfilename": "3_Dense/model.safetensors"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "added_tokens.json"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "config_sentence_transformers.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "modules.json"
+    },
+    {
+      "rfilename": "notebook.ipynb"
+    },
+    {
+      "rfilename": "sentence_bert_config.json"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer.model"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    }
+  ],
+  "spaces": [
+    "embedl/hfviewer",
+    "fastgpu/vram-and-gpu-cost-calculator",
+    "emanforhelp/model-pulse",
+    "quantid/huggingface-official-benchmark-leaderboards",
+    "google/embeddinggemma-tuning-lab",
+    "google/mood-palette",
+    "MTEB-BR/leaderboard",
+    "hakari-bench/leaderboard",
+    "jairwaal/image",
+    "ysharma/mood-font-walkthrough",
+    "KIT-MRT/KITScenes-LongTail-Challenge",
+    "akhaliq/embeddinggemma-300m",
+    "govtech/lionguard-demo",
+    "bebechien/hollow-knight-helper",
+    "fdaudens/EmbeddingGemma-Wikipedia",
+    "ysharma/mood-font",
+    "kdcyberdude/HARvestGym",
+    "Jakob08/moneychatbot",
+    "sergeyzh/rusBEIR-lite",
+    "Lmagoncalo/improved_mood_palette_generator",
+    "minhan6559/Log-Analysis-MultiAgent",
+    "Secondprinsipal/image",
+    "dejanseo/fanout-diffusion",
+    "EMsurya/query-tools-similarity",
+    "Mohaddz/Customer-classify",
+    "atharvp/courseAid",
+    "LukeFP/physh_topic_classification",
+    "bhardwaj08sarthak/STEM-QA-Contextualize-mcp",
+    "Omthakur1394/self-aware-rag",
+    "Hygroskopisch/ifc-kbob-ai-matcher",
+    "Hygros-LCA/ifc-kbob-ai-matcher",
+    "maxpar1/leaderboard",
+    "hbauzan/llm-semantic-visualizer",
+    "Baragi-AI/Munche-768",
+    "Sergidev/EmbeddingGemma-3d",
+    "lI7Il/RAG_Chatbot_Gradio",
+    "borgo9/Nuclio_test",
+    "danulr05/budget-proposals-search-api",
+    "yuvabe-ai/AI-DocumentSearch",
+    "vasanth7904/google-embeddinggemma-300m",
+    "himanshuchauhan/gema-run",
+    "Kareman/recommender-backend",
+    "lake-synctv/leaderboard",
+    "Dhruvil8/SrimadBhgavadGitaAI",
+    "frirocks99/embeddinggemma300m",
+    "molos1978/google-embeddinggemma-300m",
+    "ysharma/mood-theme",
+    "shyumc/google-embeddinggemma-300m",
+    "malekradwan130/EbWFsZWtyYWR3YW4xMzBAZ21haWwuY",
+    "Mohammedmarzuk17/Edushield-AI-Backend",
+    "luanfreitas5/mood-palette",
+    "Yessysteez/google-embeddinggemma-300m",
+    "yanweifuture/google-embeddinggemma-300m",
+    "YousufRasheed/title-checker",
+    "bhardwaj08sarthak/STEM-Question-Generator",
+    "WildOjisan/embeddinggemma_300m_fastapi",
+    "GPavanKumar/RAG_NewsArticleGenerator",
+    "Mandr1/google-embeddinggemma-300m",
+    "Alishba15/google-embeddinggemma-300m",
+    "bharatcoder/RS_Studies",
+    "Emannn2004/yt_rag",
+    "sssravi303/info_stack",
+    "dlopez350/mood-palette",
+    "antonbustrov/google-embeddinggemma-300m",
+    "borgo9/Display_similarity",
+    "SophiaDo/Satir-AI-Coach",
+    "AbaRyo/google-embeddinggemma-300m",
+    "Rishiraheja86/google-embeddinggemma-300m",
+    "adityak714/visit-uppsala",
+    "ghforutann/pdf_gemma_streamlit",
+    "WildOjisan/cnn_hf_2509",
+    "Thinnker/embeddinggemma-tei",
+    "pankaj-munde/MedSense",
+    "PavelHaufe/similarity_score",
+    "aidaglezg/similarScore",
+    "dcamarasa/similarity_score",
+    "molinagomezp/similarity-scor",
+    "thecanoa/llmcourse",
+    "aidaglezg/EjemploNuclio",
+    "PavelHaufe/similarity_score_faiss",
+    "neuralworm/rag-embeddinggemma-gemma-3",
+    "sandy083/Math-AI-Bot",
+    "guilhermeribmoreira/evy-v1",
+    "dwablimol/token_detective",
+    "sandy083/AI_Robot_for_Real_Analysis",
+    "jenny0821833/Health-Education-robot",
+    "CatoG/CG_AskPDF",
+    "B4869/text_embedding_model",
+    "manuuh/manuuhlemmy",
+    "Han044/TW-PDPR",
+    "ptrslvk/google-embeddinggemma-300m",
+    "jadeitekidneyketchup/google-embeddinggemma-300m",
+    "wolfaiOM/google",
+    "dachrisja/google-embeddinggemma-300m",
+    "HChuuuu/final_project",
+    "cervenaraketa/mood-palette",
+    "cervenaraketa/mood-font",
+    "Nikhil-AI-Labs/legalmind-api",
+    "WIZ1112/fynd-demo",
+    "jadenhoch/Expert_Finder_corpus_embeddings_embeddinggemma-300m"
+  ],
+  "createdAt": "2025-07-17T19:53:55.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 302863104
+    },
+    "total": 302863104
+  },
+  "inference": "warm",
+  "usedStorage": 3778342798
+}

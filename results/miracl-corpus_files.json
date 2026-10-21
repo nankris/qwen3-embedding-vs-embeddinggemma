@@ -1,0 +1,2792 @@
+[
+  {
+    "type": "directory",
+    "oid": "125ff3bcd16a4dbc78292d9239d1dc7e573faaad",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-ar"
+  },
+  {
+    "type": "directory",
+    "oid": "142ba590d8876c673949302897fd468d921310eb",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-bn"
+  },
+  {
+    "type": "directory",
+    "oid": "d91b934739fa0fb1a79388d4bb8b6293f226366d",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-de"
+  },
+  {
+    "type": "directory",
+    "oid": "b7ed22719f3b3ea7ce073ec4aefe4170c1cb942a",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-en"
+  },
+  {
+    "type": "directory",
+    "oid": "8e7e565512bf1be5aed3fc43cd03ee8eedd28633",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-es"
+  },
+  {
+    "type": "directory",
+    "oid": "b3280a29d9ab6ef06f4dd4c06d82ffce0c80978e",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-fa"
+  },
+  {
+    "type": "directory",
+    "oid": "ccd078f56b98432f547b2ff95b4fac95d5372f61",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-fi"
+  },
+  {
+    "type": "directory",
+    "oid": "87b934e467c4c1a42300928febc887cf0b11a138",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-fr"
+  },
+  {
+    "type": "directory",
+    "oid": "2398159bfceb7dce728c58854c798fc7f7b7bcfd",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-hi"
+  },
+  {
+    "type": "directory",
+    "oid": "179f94ced637e52f6964aa5c6a2f6bf544832227",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-id"
+  },
+  {
+    "type": "directory",
+    "oid": "87fcba24a3070907337878dd38490d99c06f43dd",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-ja"
+  },
+  {
+    "type": "directory",
+    "oid": "239ed690e87ac2cbf9579b75e095b2e96bbc8170",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-ko"
+  },
+  {
+    "type": "directory",
+    "oid": "b122d0f466aa42fa79df10210f1140f2c8905e07",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-ru"
+  },
+  {
+    "type": "directory",
+    "oid": "70fab61b13428356488a00f1ef5c6e8284b1b873",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-sw"
+  },
+  {
+    "type": "directory",
+    "oid": "0f1a88b24bd9748855fec5346b25b51254ee58fd",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-te"
+  },
+  {
+    "type": "directory",
+    "oid": "5b9f072aca8406e50b9e38d0d94ae2a23f3a6fe3",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-th"
+  },
+  {
+    "type": "directory",
+    "oid": "0888f140292baa91cd4afcbbe598bb7c9189f246",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-yo"
+  },
+  {
+    "type": "directory",
+    "oid": "34b3fa00b74dbd68708c3ab01814f2a1d27c7e19",
+    "size": 0,
+    "path": "miracl-corpus-v1.0-zh"
+  },
+  {
+    "type": "file",
+    "oid": "6ce877c1f92d29f440927439577006dfe5453b59",
+    "size": 18677,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "cf995fbc7fd20f7e9c58465966e315eefb4bea90",
+    "size": 6851,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "e28511e4954633b64863c53861e8aed0426b80b9",
+    "size": 94104175,
+    "lfs": {
+      "oid": "f3c38eaa54836397aae4793bb052430646028c2c958c1a54fb71900c83f5dcee",
+      "size": 94104175,
+      "pointerSize": 133
+    },
+    "xetHash": "f7faa1f66507efb914471fa5d462c444b2f5c65c067a092b3487658321681026",
+    "path": "miracl-corpus-v1.0-ar/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "98c8ad66a5554d016c61e0db9ac7ec38647ed396",
+    "size": 83793880,
+    "lfs": {
+      "oid": "77f67390f95a69ae2447fffb2a62c0de9d28e8d0eb3bf97cfe04e85c1924cd42",
+      "size": 83793880,
+      "pointerSize": 133
+    },
+    "xetHash": "8897a5c9947cf156d5519641330b5b174f045bf36d8457f5b7b34b375c1be2ad",
+    "path": "miracl-corpus-v1.0-ar/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "6d130c7cbb93301f40d41d838d44b4a386a30d13",
+    "size": 70295610,
+    "lfs": {
+      "oid": "8c10dda6b56429841e730432aa75d3338e37b605410b936b4fc6c914521d2aec",
+      "size": 70295610,
+      "pointerSize": 133
+    },
+    "xetHash": "7f0c52b349ff9c51c1ab70d0be39bf7cb075783ecba0ccad053601a0dba59ebc",
+    "path": "miracl-corpus-v1.0-ar/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "393774f42071259f46511075b2b9c3a6adc4401e",
+    "size": 64551259,
+    "lfs": {
+      "oid": "0d0a02ec18ca8e246f0af5788077fa23f1de35d5a40dee6cacc4fe5a2b91f904",
+      "size": 64551259,
+      "pointerSize": 133
+    },
+    "xetHash": "d561608af3b9ea6921493f93e66b3764596bfe732a6d199786b0b88480826987",
+    "path": "miracl-corpus-v1.0-ar/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "3ade103bf0f0ba354ce61cad09759ade00cebf9e",
+    "size": 7227421,
+    "lfs": {
+      "oid": "4b75ab6cac6ae8615a60f1b278460dd3d9ef776ea002a6684a6757631fec62fc",
+      "size": 7227421,
+      "pointerSize": 132
+    },
+    "xetHash": "9a8709a78ab08888540f207becf9d79983aa09ea11e534cf8da2d326ff2fe29a",
+    "path": "miracl-corpus-v1.0-ar/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "7782b7ccaf8e40ffabf54759e73755ab7b3eed9c",
+    "size": 59713182,
+    "lfs": {
+      "oid": "7399b221f6dabab5e9ab0eed6107a27091df3807f4684d588357e4c8abbdaef2",
+      "size": 59713182,
+      "pointerSize": 133
+    },
+    "xetHash": "fae29f2bfdbdd36d61318ab6153dbd1d4373e3d4953e815bb6de351bc4719cb8",
+    "path": "miracl-corpus-v1.0-bn/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "bdc2705c084f1c0b3fc68ec083bbc7500c59ba17",
+    "size": 97640576,
+    "lfs": {
+      "oid": "b92c5af705cd7b69e29265642465b0140225167273543f7bc74dfdbe36ea999d",
+      "size": 97640576,
+      "pointerSize": 133
+    },
+    "xetHash": "1280736c07557c87a0828d510bb5fc838b9e1244dbb37dd076108f3be72944ac",
+    "path": "miracl-corpus-v1.0-de/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8ca8433d3e3d3ce9babbf062ce4bc10b7acb4d7d",
+    "size": 94992507,
+    "lfs": {
+      "oid": "5880b5294ddfbf84f96a4f897e3e128f356aef308757af01e1414dc510f01078",
+      "size": 94992507,
+      "pointerSize": 133
+    },
+    "xetHash": "33b788f9f980a3f0af7d12a24e5a1e71877c189475c4e0bc931e8d4e9bd4af59",
+    "path": "miracl-corpus-v1.0-de/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "e453f04eb3e088303d96f82e4b4b878361b38937",
+    "size": 81937816,
+    "lfs": {
+      "oid": "e5e029c3120240cfd7a6e436ca0f9151a19a7df3309ae7f91f54b6252e190f0f",
+      "size": 81937816,
+      "pointerSize": 133
+    },
+    "xetHash": "0df1275c1edad38a46d116e42918b55e5a761b93cfc411d570a1381835ecc500",
+    "path": "miracl-corpus-v1.0-de/docs-10.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "7b50b77a4f95ee0bf5900ac2ce79ea6f17749b86",
+    "size": 82225480,
+    "lfs": {
+      "oid": "a52b44ea8809a3a531b00c8be6de821ee76845081f7f14392b89eae96960b26e",
+      "size": 82225480,
+      "pointerSize": 133
+    },
+    "xetHash": "107a21d02b15080218e83efa1d5edb110c5d77bba6e8743eed6007fe91c6a3c8",
+    "path": "miracl-corpus-v1.0-de/docs-11.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "728c1f59a460131b130875ee9bc1fe974728c018",
+    "size": 82302655,
+    "lfs": {
+      "oid": "2cadc941eea3d58e5d3fce18714dbe57dbe2b5f716070efd2087f1a24e30e694",
+      "size": 82302655,
+      "pointerSize": 133
+    },
+    "xetHash": "66d3de6f532a875902e56cb0a392d13d0c7c90094bae489e7c05ae9bf7cc2578",
+    "path": "miracl-corpus-v1.0-de/docs-12.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2be3009165a8c5734434ac40da0e6be95bfa116d",
+    "size": 81286223,
+    "lfs": {
+      "oid": "5663a58e369331a302de2d826309a993cad8e22a04c36037965bf4bebca37f69",
+      "size": 81286223,
+      "pointerSize": 133
+    },
+    "xetHash": "6a8feea4d54a7ad1602ebee0141421b677e643c5289f838cd5bb98e3c17b4637",
+    "path": "miracl-corpus-v1.0-de/docs-13.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "6bc7838b123a2e2b590deddc8643380105c5b5aa",
+    "size": 81285393,
+    "lfs": {
+      "oid": "25f935558383267c6b6eb0b8752a7c042e3e2e8644277db0eb8863d68f2be16c",
+      "size": 81285393,
+      "pointerSize": 133
+    },
+    "xetHash": "fc4371bd91559841998b6a61f0e03b6604419c8aa0abb3e88f726ec1b491b63b",
+    "path": "miracl-corpus-v1.0-de/docs-14.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8b6a24f90a20ba2ce16c2dc961c5bc2dccb584af",
+    "size": 81734841,
+    "lfs": {
+      "oid": "788ac826b7f781d1a04e5183084e5b3aeb72ced70169567cd324a4e2a474d576",
+      "size": 81734841,
+      "pointerSize": 133
+    },
+    "xetHash": "c868bb4659ce4ea245d704a7ab2dcfa834b1baca651a1b921919dd33bc7dda24",
+    "path": "miracl-corpus-v1.0-de/docs-15.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "99e4e955230318e71d7533ab3ac3b33d4f11debe",
+    "size": 81453194,
+    "lfs": {
+      "oid": "78a75e7336e7c95c608ea2f82b8b8eca039bfbfb653aa356c138121ab4531d5e",
+      "size": 81453194,
+      "pointerSize": 133
+    },
+    "xetHash": "837b0f8163ca3f7666d5672a998852d3799d00e2de0f781143697f168e2f7c18",
+    "path": "miracl-corpus-v1.0-de/docs-16.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "a11638338efd057aefe8e63d0b5d697b8c9cd40a",
+    "size": 81111867,
+    "lfs": {
+      "oid": "3e069839a350fa914ce031d6890ff760045dc433973ad468ebb2ea9c92c7b8a8",
+      "size": 81111867,
+      "pointerSize": 133
+    },
+    "xetHash": "b884a1f327b582ec043fa298a56aef38379b1222a7bd4a2ee86d6ef448004a9d",
+    "path": "miracl-corpus-v1.0-de/docs-17.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "c0d4351d583c587b461e88313b84e80060f30f35",
+    "size": 79961121,
+    "lfs": {
+      "oid": "c0c4a3975c079c32aa338ab7b19f7d3d8046ca8feddf71132f2387989ae4666c",
+      "size": 79961121,
+      "pointerSize": 133
+    },
+    "xetHash": "5a9b44efde7161852196c5dffc5398cac6968abc2da75fb9edd35010405c31a0",
+    "path": "miracl-corpus-v1.0-de/docs-18.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "9546e43cb8a8846c6e9833027a99965682b0976e",
+    "size": 80334928,
+    "lfs": {
+      "oid": "17421db47aaa7f518405ba6d1756ab013fcd10afea73c9029b15820b9176baeb",
+      "size": 80334928,
+      "pointerSize": 133
+    },
+    "xetHash": "0e6855e65c127c5eb8b8bd0ad83b1c6d791875ba429902053f420f1ec7a9ef1d",
+    "path": "miracl-corpus-v1.0-de/docs-19.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "e4ff84dc1b20140c39ccc3edd038813a256343fb",
+    "size": 91425088,
+    "lfs": {
+      "oid": "a95a70870c35a6a60a8af2666b0e554643da7d4449003937ee16ae1dc948e031",
+      "size": 91425088,
+      "pointerSize": 133
+    },
+    "xetHash": "5e7117c82b552e9f3afc5a4c939bc62e7ed344f5d1ff3a637042d08b866edeb1",
+    "path": "miracl-corpus-v1.0-de/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "dfaa3145e009cd167777eef8cf5c48fd37349713",
+    "size": 80594842,
+    "lfs": {
+      "oid": "1b956ecd80481d1a3f756eb9b784b88d26b07b2e134226a83d37f56b8f6d93f1",
+      "size": 80594842,
+      "pointerSize": 133
+    },
+    "xetHash": "0bb01e39a4386e167badd54e987bad064de089bc85e5d41afa8832ada3124a9e",
+    "path": "miracl-corpus-v1.0-de/docs-20.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "0c5144ee3baeb4bf5c815a7fc28dc6c1b8dd4ce9",
+    "size": 81303770,
+    "lfs": {
+      "oid": "2194d048f815b8d85e78d988be1ba3622cae608da34827e7b56aade233e43c31",
+      "size": 81303770,
+      "pointerSize": 133
+    },
+    "xetHash": "7af6e20a916503dda31e2f11f09b0a83ecb23a8c5f57d99fb9def0ed270cb043",
+    "path": "miracl-corpus-v1.0-de/docs-21.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ee05b4de3afad95a68481361b28b9586bb9ca78e",
+    "size": 82621593,
+    "lfs": {
+      "oid": "3f1106b80a1b9a8982c81243a5ead03f8e8e8b0f2127cb5fd42ce9a0beb114c7",
+      "size": 82621593,
+      "pointerSize": 133
+    },
+    "xetHash": "f0ef5cfa6aeaa28e054fe4f73a1cb68987793efed4755bc57456de72da62f1a9",
+    "path": "miracl-corpus-v1.0-de/docs-22.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "41bf9aa64a685b1a11cf496dad0728c0d5d05046",
+    "size": 81564108,
+    "lfs": {
+      "oid": "ab492c773f8910186a0ef65a0105a9539fdc1754c95c922d06f5cbabcb549271",
+      "size": 81564108,
+      "pointerSize": 133
+    },
+    "xetHash": "f6e97258b26f48cb18d946dc51ca7edd8188260ebfd7ecfc14e95075e466afdb",
+    "path": "miracl-corpus-v1.0-de/docs-23.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ddc7dd59142008e93306cdd630796a2dd6677587",
+    "size": 80246927,
+    "lfs": {
+      "oid": "9a2742b975dd90e733b26e3b8c4423f72bbcf56f172c68476bbbd28555d8fd3b",
+      "size": 80246927,
+      "pointerSize": 133
+    },
+    "xetHash": "1b3bf173e64596e9e834d325ff369ff692e9e8638f8854ed29866bafe0976fd0",
+    "path": "miracl-corpus-v1.0-de/docs-24.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "b1be42a37b01d61fcb4d28fed88bafdc4bc1638b",
+    "size": 79283563,
+    "lfs": {
+      "oid": "fa1d1bcbf6bc7f6b3406605ec3e181ad31792d7c036051f0cac1bcb8dd6f228c",
+      "size": 79283563,
+      "pointerSize": 133
+    },
+    "xetHash": "48f78fbcd69818088a6fb2706394b09e99714989ba5118841a1c7bcd32cfe971",
+    "path": "miracl-corpus-v1.0-de/docs-25.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f896779ef105503911461e741778b26287890225",
+    "size": 78943370,
+    "lfs": {
+      "oid": "54250ecb519c69be1cf851eab2ebd2f57523d5da7e577a4917a1ecb1d11164b2",
+      "size": 78943370,
+      "pointerSize": 133
+    },
+    "xetHash": "dd950a866cf0d33fa6a901762dcd345b8a83e7cc38e4cb741d6c2fce21a1c955",
+    "path": "miracl-corpus-v1.0-de/docs-26.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "c38627bb66ebd87b270dc2d718333d19b78b9f7c",
+    "size": 80159901,
+    "lfs": {
+      "oid": "a682eccf8fd95fa08e62483ad6f8436a22b9222f0a83481d234dd5ade9318626",
+      "size": 80159901,
+      "pointerSize": 133
+    },
+    "xetHash": "c4e2e15a740c654ecf5cd45ccc8ed8b5a61e203a24f24b427e0dc092bec3d3cd",
+    "path": "miracl-corpus-v1.0-de/docs-27.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "e1d14f13ff04809157138ad59f3f4f6c10492e1e",
+    "size": 78672926,
+    "lfs": {
+      "oid": "0ae718ff0a87958debf73e0d373f86f44c8731de01835d8ff8bd203024b753f1",
+      "size": 78672926,
+      "pointerSize": 133
+    },
+    "xetHash": "6635ab4a0af79654e01e638d8c2dacd84d446af41c56adfb2e051c361f880a3c",
+    "path": "miracl-corpus-v1.0-de/docs-28.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "a34e552f2648143075656cd8f82a5026addab33b",
+    "size": 80702668,
+    "lfs": {
+      "oid": "889f4c886ac488c236de6f5bc3ff07fe08cf71b3833b224e61e84d34f98c5bbd",
+      "size": 80702668,
+      "pointerSize": 133
+    },
+    "xetHash": "08c5dc248a47383c8c798f169b016e7ba68ae20955cb75d35241134c66418688",
+    "path": "miracl-corpus-v1.0-de/docs-29.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "84976cdceedcc1a05d8d96d9953adcc8ff49c4ec",
+    "size": 85007239,
+    "lfs": {
+      "oid": "a42fe140c67509622139171e6e47b228d9f1b6f2e6612a649de44f8e12779796",
+      "size": 85007239,
+      "pointerSize": 133
+    },
+    "xetHash": "716675c6e46cd138648f1a76869b1045d4b38dd01a6c460d836195a7e5229251",
+    "path": "miracl-corpus-v1.0-de/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "0458f7149c0759a79bd1f76748fabd862733e177",
+    "size": 80576937,
+    "lfs": {
+      "oid": "75186fa831319f983b48b47722f73ddac59c069cbe47b33b324a670460d1dd53",
+      "size": 80576937,
+      "pointerSize": 133
+    },
+    "xetHash": "185ec4b0ed5829b4add9ea8d53b239408b85d8a5d8360eef90db254a4e6729b6",
+    "path": "miracl-corpus-v1.0-de/docs-30.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "200f3f71949ae5f47224e0d29a6b5098f30eb616",
+    "size": 57737892,
+    "lfs": {
+      "oid": "8075d8bde22784b0430766d35c4eaa6257d9519ab6bbb69bfd2ea2ae0d3ada86",
+      "size": 57737892,
+      "pointerSize": 133
+    },
+    "xetHash": "b8a65f57e83532556d3162789e27786923d3b45a1e7a8837e6c8796161f1f420",
+    "path": "miracl-corpus-v1.0-de/docs-31.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "be7260d3437997dae75ad3643c77243d3b6e7756",
+    "size": 85433314,
+    "lfs": {
+      "oid": "315303c63c56fd6923d9a819583601397d65b91a12da8cadbb4508a9647cf116",
+      "size": 85433314,
+      "pointerSize": 133
+    },
+    "xetHash": "c0ecb51b58a80b2129acffbdd7af05bf5a2f356e899f5a69e3c73a59aaa4e72b",
+    "path": "miracl-corpus-v1.0-de/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "7722f74a9f0c6e2d4b929a1ca59c7b3c43a75c09",
+    "size": 85494784,
+    "lfs": {
+      "oid": "8a7b12fd145e5ff9ec062ebb51a0ad00527748ddfe87262ae07c833a0aae9ac8",
+      "size": 85494784,
+      "pointerSize": 133
+    },
+    "xetHash": "1c5ee1db37519cd4826f19960941f26919f6163ad20c7d56ccdb1adc1052bfe5",
+    "path": "miracl-corpus-v1.0-de/docs-5.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f86846570591047ff2e8fe5ef936b0b5babc7408",
+    "size": 85048361,
+    "lfs": {
+      "oid": "8f5477ca2755e8902a55fa2480fdbaeb08f90a2da83560807bab66684f475a21",
+      "size": 85048361,
+      "pointerSize": 133
+    },
+    "xetHash": "5df6cebe9a9a3007af0c5a66f0b83c2bc0a794d92db674bc1a7a1782f8004a8a",
+    "path": "miracl-corpus-v1.0-de/docs-6.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "79db769f0c38c90402b06b58a83c327613e719aa",
+    "size": 85544324,
+    "lfs": {
+      "oid": "d289bfe23edc6886a156fc1d926b626c2cade86f43987caf9d6496bb696e908b",
+      "size": 85544324,
+      "pointerSize": 133
+    },
+    "xetHash": "00c0a1a9c7a43938df8d577de2d5b38a0c307b76042bda812be1f8e8861f861c",
+    "path": "miracl-corpus-v1.0-de/docs-7.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "d9e84ea531273b6878fec88f0f114b77d65ed8bb",
+    "size": 82876799,
+    "lfs": {
+      "oid": "bb23779fa77790325550d57aa361041790680c7c7999e7b19904643ce62f6d6a",
+      "size": 82876799,
+      "pointerSize": 133
+    },
+    "xetHash": "b33cdd22586687fe554be3cfd9763e7a7a27626cd1e0ab195c2972201983bae6",
+    "path": "miracl-corpus-v1.0-de/docs-8.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8f7f2bb167c07270f5f048c8a08d2cb0d290d759",
+    "size": 79775850,
+    "lfs": {
+      "oid": "6af42503c68bd086bcf7802756a0a88487ba449a8bcc1ad77995a5830ec47647",
+      "size": 79775850,
+      "pointerSize": 133
+    },
+    "xetHash": "6a4c73c39acb31b87c57645bfe83ec23dcc53a07d3c2f1a7958b371471dc66f9",
+    "path": "miracl-corpus-v1.0-de/docs-9.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "65968a9229b6429cf181c29eb4cbbaba6a6c24ca",
+    "size": 98856369,
+    "lfs": {
+      "oid": "f437e7f1a3c8e62a3d8dc7cc510db9b8ae40f6d088912324ab732f2bf51293f0",
+      "size": 98856369,
+      "pointerSize": 133
+    },
+    "xetHash": "7302a1f850ceaf49549669362d7e641d27ab0bfa7c370b03477e39a8788a3733",
+    "path": "miracl-corpus-v1.0-en/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8c2bd23bc8d8ee6288faef0df04056a08e76c24d",
+    "size": 97338482,
+    "lfs": {
+      "oid": "26e2dce51e95e116ffd26bf4c9a028853d2a4cca8378ca35592dc36c228436dc",
+      "size": 97338482,
+      "pointerSize": 133
+    },
+    "xetHash": "cde19eec1f412f019923d2cfd7709a4d2ebf82226ce884af746026a3252ab698",
+    "path": "miracl-corpus-v1.0-en/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "1289477ce07a7e8012b72c0aee9cc0bb1e6f62d2",
+    "size": 85787457,
+    "lfs": {
+      "oid": "64fa76e090cec2d663766e4fa47dea4309c1d7b934b1a9a50d23d031e4808ea3",
+      "size": 85787457,
+      "pointerSize": 133
+    },
+    "xetHash": "3c957c2d81d9a881b6b80af4181dab8a448b66a6f7c7ce9541248d9bb04140ab",
+    "path": "miracl-corpus-v1.0-en/docs-10.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "72bfe058c83a4520c609ef1fece21e7e76a2eb49",
+    "size": 85858461,
+    "lfs": {
+      "oid": "c33bb56e54e1cf86f78eaa09905f6c0e3a957376067386763ab95f2798533e85",
+      "size": 85858461,
+      "pointerSize": 133
+    },
+    "xetHash": "7f1eebf47bf15e1500b38cff55676fa642c3846e60a47c8ab56f142f20f45184",
+    "path": "miracl-corpus-v1.0-en/docs-11.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "13b42bf732020c6cc7cf182fca9a0b611ff9f1b7",
+    "size": 85089158,
+    "lfs": {
+      "oid": "1f2c64c9ac3c30c3bebdfa85309356bdfc484baa0fba9e01f25a20dac4bd7e58",
+      "size": 85089158,
+      "pointerSize": 133
+    },
+    "xetHash": "995bf8b63e7358e4a63f508401e34a316236fabd351eea9635e8e48b483ca941",
+    "path": "miracl-corpus-v1.0-en/docs-12.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "eddb9f57b22aaa84e27a47ba0e55c1b76b052467",
+    "size": 82769410,
+    "lfs": {
+      "oid": "4001f73aa2ba49222716041529bf87cd4bb8e9dfd2e61aa7a2ca6149ec6099ba",
+      "size": 82769410,
+      "pointerSize": 133
+    },
+    "xetHash": "93b41a7dd7cdce502ee03469f9f0a4373772908ac431bf47cc8fb0f4a5d3d2d6",
+    "path": "miracl-corpus-v1.0-en/docs-13.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5a29c2a36b52660e352aefea1c637a72c40dfe0e",
+    "size": 83032778,
+    "lfs": {
+      "oid": "dbc9d8fd5db6af9d170192029a04ae426aa8474461fcb63d1c98cdba9a0a031f",
+      "size": 83032778,
+      "pointerSize": 133
+    },
+    "xetHash": "08e7b1b3821138ad6233a9fd359ae92cae83978313537e863314849e5223ef4c",
+    "path": "miracl-corpus-v1.0-en/docs-14.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "47f4389a879950f5562bf017efcce9811ff2a3a4",
+    "size": 82548385,
+    "lfs": {
+      "oid": "84a5ad58635e4bf77945489e43410e7ad0d51e873119e8f72977deaf0b44d033",
+      "size": 82548385,
+      "pointerSize": 133
+    },
+    "xetHash": "017fd5f9d96ebe40c3d89af2a91e0ba04716a2b12a884b4fdd97a26c96f9ef1a",
+    "path": "miracl-corpus-v1.0-en/docs-15.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "65f2b1da0b86cbaf8be2a2bddb2390a02d4ef0a3",
+    "size": 81947138,
+    "lfs": {
+      "oid": "9f1a5e9d0bdffc17c04063e01575d4c6212236d42730724235ade7277f87a61a",
+      "size": 81947138,
+      "pointerSize": 133
+    },
+    "xetHash": "507997922f1d04f60977ee49b3b124dcc606a7ecfaacbaf963cee9c6861afc3b",
+    "path": "miracl-corpus-v1.0-en/docs-16.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ddb7ea661e6f928a903e1aac253a51440dabc188",
+    "size": 81038479,
+    "lfs": {
+      "oid": "c796466731b12b9b996a60d1484ad3727a55e69d747f799a9514885a5a5a316c",
+      "size": 81038479,
+      "pointerSize": 133
+    },
+    "xetHash": "6496df96b5edc914ab165ef872371abbcff950c4f5697fa34743f8df0151978c",
+    "path": "miracl-corpus-v1.0-en/docs-17.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5591b0040d0b08e58e5a2f42e064e1579feb3825",
+    "size": 80496066,
+    "lfs": {
+      "oid": "f2c1b02dc3430674c20d136c0922f16f1f62713d25e1c23fad715575d598f642",
+      "size": 80496066,
+      "pointerSize": 133
+    },
+    "xetHash": "8148526a74381d5f6acff9b66f6e52c18eb1d5161b16ebe4024d14c511fc23de",
+    "path": "miracl-corpus-v1.0-en/docs-18.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5c77cffede8848abd6184206a00aee9215036aa1",
+    "size": 80243337,
+    "lfs": {
+      "oid": "49b38a38feb24dd307afa966d2e3e12771a970ac476f99390d229c746acde0bc",
+      "size": 80243337,
+      "pointerSize": 133
+    },
+    "xetHash": "4431a9d7b3811707bd6a00c39ab9d8b1fe59f16e9b5536e010611b7eed7ee2b1",
+    "path": "miracl-corpus-v1.0-en/docs-19.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "6ba6ac4911895d214b3f8b02d41d619a3aa467ba",
+    "size": 64571457,
+    "lfs": {
+      "oid": "6fdbd1eaa6605b07435edbac2ce35ee9b2dbf0b5d838049b13ef735bbe76fd86",
+      "size": 64571457,
+      "pointerSize": 133
+    },
+    "xetHash": "4680e7785bfe6f3db1457380012856237c755d409a6ab9fc92dce57cfa2d0fa0",
+    "path": "miracl-corpus-v1.0-en/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "b12a7d0e84c208329801526c3be687d489ca77fc",
+    "size": 80003557,
+    "lfs": {
+      "oid": "27aad70c717b63b61e24962e761166596ae6235a954b44a83cff15bce8956fd2",
+      "size": 80003557,
+      "pointerSize": 133
+    },
+    "xetHash": "2bfb6284b5bb96f53e5dc6d9c4cb50fd15798c99500a769baa3b4efc83ad701a",
+    "path": "miracl-corpus-v1.0-en/docs-20.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "d72df5ca040fdeee183addc5449a666ba3151145",
+    "size": 79751834,
+    "lfs": {
+      "oid": "2013576221c900a6c029f49aa705de0a1f4abd77da2483ee66a71febc2e83ea2",
+      "size": 79751834,
+      "pointerSize": 133
+    },
+    "xetHash": "c6a241d16dcb0130b854b7d7b452a15199960946937b87f7fdff73ef802b86c0",
+    "path": "miracl-corpus-v1.0-en/docs-21.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "21c218ea741f9e7fd0cba0084e12793ed9ed63af",
+    "size": 76766869,
+    "lfs": {
+      "oid": "ba39fcd25da55b97266537c0867e0fbcae7723461c26a319caf298c96fddf910",
+      "size": 76766869,
+      "pointerSize": 133
+    },
+    "xetHash": "d99fe9bf5f64ab10b65ffa9b0e75696a5a64f35d35acca49213267014ace4302",
+    "path": "miracl-corpus-v1.0-en/docs-22.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2db211566080f40abd334dff75562ff3632a5206",
+    "size": 75810312,
+    "lfs": {
+      "oid": "6f8f5f46dc29d2ee7338adcbda293fb41b1b2d3a11f96f88dcb9c32955807b53",
+      "size": 75810312,
+      "pointerSize": 133
+    },
+    "xetHash": "f7bc8285a31797df1bc6e8062c4e772a4f3aa875ed23f24df9b1d731b9e0e956",
+    "path": "miracl-corpus-v1.0-en/docs-23.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "3a134b84efc64bb6368f53526cf59dcbc7592267",
+    "size": 76272005,
+    "lfs": {
+      "oid": "10d6470537a4ef421187103ad9aba191d25bd660249e5043b497ff6b26ef9cfa",
+      "size": 76272005,
+      "pointerSize": 133
+    },
+    "xetHash": "532c4441f476dac4a784379546915bc602995df6f4ac7cecd457c3d3de543820",
+    "path": "miracl-corpus-v1.0-en/docs-24.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "e77c2799c5320fa5657f1a897cc93c63ff1dcc7b",
+    "size": 77082664,
+    "lfs": {
+      "oid": "3054907619679f4c34e04412aef986339006f37337dce74d925e483ad6fa697c",
+      "size": 77082664,
+      "pointerSize": 133
+    },
+    "xetHash": "405be63f7e9786d29367f52233346e432231eadacc1767b3681a83f808f699d2",
+    "path": "miracl-corpus-v1.0-en/docs-25.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "0b674a22ca780c1ca06691d7ad772ebdde6a3ea6",
+    "size": 78228256,
+    "lfs": {
+      "oid": "696338984f800e1e9148a5612a69e0af54a5eee4ce06a656f292bfe2241592dc",
+      "size": 78228256,
+      "pointerSize": 133
+    },
+    "xetHash": "08c7589d0abdd56e976975fde619ff9a4eaf09aa95ebfe3167a8deb3fe78a65b",
+    "path": "miracl-corpus-v1.0-en/docs-26.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "662acc8ab2b4b660ba9ecec3ceffbf6b68eb6dbd",
+    "size": 76445022,
+    "lfs": {
+      "oid": "dda592152098544ccb18b1c0019c226e7055aac64e0c791a8b4e8c28b4e8a52c",
+      "size": 76445022,
+      "pointerSize": 133
+    },
+    "xetHash": "708294634e7e53c5ceb1453d9f942da84caa46aa5f9ab8497757c73fbc47bd3e",
+    "path": "miracl-corpus-v1.0-en/docs-27.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "1ab25c67ccd354e9a9faee8239a004f5dfc429e5",
+    "size": 76434972,
+    "lfs": {
+      "oid": "ea293c31bd1cadd19ba139118489fb2f1d2647b08a018d0ec5165484752211ba",
+      "size": 76434972,
+      "pointerSize": 133
+    },
+    "xetHash": "9ce3cbccbcba96c57d427b264e3b13a813dd5269223b49da7c0e28bc2b6c884d",
+    "path": "miracl-corpus-v1.0-en/docs-28.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f48c9216bf35fadc5b5ddb1deec398c760110991",
+    "size": 74697707,
+    "lfs": {
+      "oid": "a8d5f82ffe35c38f27732cb8e5c1f8caf1a562014eae5d0016b05e4940abc6bf",
+      "size": 74697707,
+      "pointerSize": 133
+    },
+    "xetHash": "45e1b0514ce3868d18b9a90a3f1af9f0445462b2c7340ca59c07fdfc4ce98f43",
+    "path": "miracl-corpus-v1.0-en/docs-29.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "35241af991228bddbbffa213b7e5cbc57c96a767",
+    "size": 79988237,
+    "lfs": {
+      "oid": "314d101626058609268c42c4cfb805972eb8aac67d63670383763eef4351c920",
+      "size": 79988237,
+      "pointerSize": 133
+    },
+    "xetHash": "a256b95a266ba508502205949088b86f7549a88a9015ed57e6bdf865df26b5a0",
+    "path": "miracl-corpus-v1.0-en/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "12c1adcff90bc6132743b15622ea5f196f2c5aa0",
+    "size": 71839143,
+    "lfs": {
+      "oid": "bc3643d2902b108292d9e8ca7f00ddd22188d0b8208eec19e8f7567c1d2e964b",
+      "size": 71839143,
+      "pointerSize": 133
+    },
+    "xetHash": "f78d3f774009799876a545c606edfe5076db3781de1d05d3000aeefd969a85d5",
+    "path": "miracl-corpus-v1.0-en/docs-30.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "4fa8d7696400972688e8a1c4383c4a69497242e9",
+    "size": 73437320,
+    "lfs": {
+      "oid": "c360361103c386d212346878df2a465441f5ab5ef623cb89c5bcde9c75176fa9",
+      "size": 73437320,
+      "pointerSize": 133
+    },
+    "xetHash": "1c5fc27af2f46e007877e53690d345eb74690985cd4e1ed777ecf2dc5b0964ff",
+    "path": "miracl-corpus-v1.0-en/docs-31.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "cef0b9dfa0a6bc4afdd7167fb8dc41fcfa8cca7f",
+    "size": 73322325,
+    "lfs": {
+      "oid": "8fdffb9a71f7c1e6d6aa2032a707b526135984b01f7d166f6e13974e43837229",
+      "size": 73322325,
+      "pointerSize": 133
+    },
+    "xetHash": "f1ea1b118420c451d8bff809d9782893ad5bfdd661fcc40813556cca440494c6",
+    "path": "miracl-corpus-v1.0-en/docs-32.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "33bb99396bf8d892bc57a0e2b66dcfae96a87a36",
+    "size": 70699147,
+    "lfs": {
+      "oid": "7771d3925fb18c1c55d499acb2bada6e6ec82934b36b3a225599b0920bead606",
+      "size": 70699147,
+      "pointerSize": 133
+    },
+    "xetHash": "a1d496bf0330643eb44fb093acb73e3c8516cfb4ba32a0389e05f27dcc4787a0",
+    "path": "miracl-corpus-v1.0-en/docs-33.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "c82e5fd72107f0c3eb5c08bb4f3ccd65b1220222",
+    "size": 74843362,
+    "lfs": {
+      "oid": "1c5227a566196f6858a46e2282d9b5fcdd66c064d2d4f9af90b3289b8a4d7c0c",
+      "size": 74843362,
+      "pointerSize": 133
+    },
+    "xetHash": "b3c32f0f9711460a1f0f604038ebb7400cfb6384697fc14f1be1109668ff1ea5",
+    "path": "miracl-corpus-v1.0-en/docs-34.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2a755d6cd8e4589705ef97f2ab874a2f4ca580d8",
+    "size": 71914591,
+    "lfs": {
+      "oid": "fb0d900dc71808fa4acbbb2edd2417089339e1ce34edbf69a5421c2d7612f7a7",
+      "size": 71914591,
+      "pointerSize": 133
+    },
+    "xetHash": "f5a75f3290c4ccb4966a9abc368b595fb502391fa8cbb5bef04676a7e5cf05bf",
+    "path": "miracl-corpus-v1.0-en/docs-35.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "e61c6b988b837f9e08ca8b1e36601d54ce64f07a",
+    "size": 73255731,
+    "lfs": {
+      "oid": "f90674624bcf503d6f69eb198e23bf6f0530a7091f983f643a33ffafb388c62e",
+      "size": 73255731,
+      "pointerSize": 133
+    },
+    "xetHash": "67e13f496a67fb588446c4c93c68e17d190e38c307a529f87776762b08c3eb78",
+    "path": "miracl-corpus-v1.0-en/docs-36.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ad4d5197ae0508d1da6ad6d91451afb71e18ab69",
+    "size": 74956992,
+    "lfs": {
+      "oid": "8dc5e0500c77c1598a5610ebc36ebb49e584d14caab78095eb9800d55480d3e7",
+      "size": 74956992,
+      "pointerSize": 133
+    },
+    "xetHash": "26db80829a6ceeeac893d6538ff81aa0df2a5a96679f280098db8328b830242a",
+    "path": "miracl-corpus-v1.0-en/docs-37.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "a1c4256c5e515e1ae9e679d6054692a0874d6740",
+    "size": 70506538,
+    "lfs": {
+      "oid": "b520dfdd89983e0453ebe7d837db360ab5b6dcf0e4b9851abac9806026fa900a",
+      "size": 70506538,
+      "pointerSize": 133
+    },
+    "xetHash": "caf50ee97b05db1accd3b2dfe9f3b3fe017c2aa160e6287ab98a4c9aa7577ee1",
+    "path": "miracl-corpus-v1.0-en/docs-38.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "94475301afbb3508c79c56e1c5136d176be1126e",
+    "size": 73824158,
+    "lfs": {
+      "oid": "c50986a3da85a39d6af0aa5a5fbdff6acf103a1529ec2601977ac0637e8ca856",
+      "size": 73824158,
+      "pointerSize": 133
+    },
+    "xetHash": "25066761c051f2ce26927b059700eab54c91c127b0e29c501fabc9ccb1afec9f",
+    "path": "miracl-corpus-v1.0-en/docs-39.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f298334a21509639e2e86d7154112238cda813b9",
+    "size": 91846360,
+    "lfs": {
+      "oid": "470d936bd978b84a042647711a689850e48b39b8ca3ed8537b506aa3dfbc6811",
+      "size": 91846360,
+      "pointerSize": 133
+    },
+    "xetHash": "5134e7af65b23e5bcf945e9305e6aba970424627a3e4091d0281624c5042f002",
+    "path": "miracl-corpus-v1.0-en/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "7dd20137b9d01c8541a983de30876ad5374e99b6",
+    "size": 72684614,
+    "lfs": {
+      "oid": "4b5e2dcbedb089c280351984b6e219167207a81ac4ee25fa2375d0102432ae65",
+      "size": 72684614,
+      "pointerSize": 133
+    },
+    "xetHash": "81836f77507606f53e82e6b043903deedae92085b0743004560dba88e572159c",
+    "path": "miracl-corpus-v1.0-en/docs-40.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "7b0a28c9c4f4c8a08f4f4a87b2683cf4cd226a16",
+    "size": 74674474,
+    "lfs": {
+      "oid": "b834a67c8686dfc7d0d105892459279402de7fe3db9de06231baf141bdc5476a",
+      "size": 74674474,
+      "pointerSize": 133
+    },
+    "xetHash": "c9f20cf782416ce075c0a8fe7a8f2fd6651c80ca487375c3ced9ca1aed74724a",
+    "path": "miracl-corpus-v1.0-en/docs-41.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "bbc4529cda5498c55127b6236a5cf6a9b03388c8",
+    "size": 74166535,
+    "lfs": {
+      "oid": "65215395de63a8c82b6e47d4d0cd1e54540cf860078085271f136eee85102072",
+      "size": 74166535,
+      "pointerSize": 133
+    },
+    "xetHash": "ea49a6b847763192c78d2cd3b4436a4d46565bb2789082d4ab3616a2de8da3f0",
+    "path": "miracl-corpus-v1.0-en/docs-42.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "06dd7d65601e98a49b64d84150f210418eff4283",
+    "size": 72571698,
+    "lfs": {
+      "oid": "46d1ed7537ac2432ca9f28e2ac4cf9c84e54de5882ae1667fd6f1505af80222e",
+      "size": 72571698,
+      "pointerSize": 133
+    },
+    "xetHash": "b13a486e0b5fabbc58b9cfe8f5006f93ccca9a719117adfbf0be35ebbc365c47",
+    "path": "miracl-corpus-v1.0-en/docs-43.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ea1bc722329e29f22280a65caa998d7bcfbd68ea",
+    "size": 72937865,
+    "lfs": {
+      "oid": "eaa86e52edee34ad3a56c79f6a600f021d6ed69b654c1a1a44ee8600a7ac4343",
+      "size": 72937865,
+      "pointerSize": 133
+    },
+    "xetHash": "a507d789b3e6e1e9e99b550398b1cec05c4f4a6fbf0bc2149288aab9d221291b",
+    "path": "miracl-corpus-v1.0-en/docs-44.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "cd0e3c0b7df53b40e50983c63772c819d9743d94",
+    "size": 74948873,
+    "lfs": {
+      "oid": "c1307acccebdacc56561807e60e145fad6ff652b9b3bbdba6b1d30e61bdd7c97",
+      "size": 74948873,
+      "pointerSize": 133
+    },
+    "xetHash": "7e840bb6f287ca45cc6fd79a9017b647cd4f99ba618d85fa1e1fd248992aaa1d",
+    "path": "miracl-corpus-v1.0-en/docs-45.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "7d8d9ea1663b2f7fc66b37a745749ea88d9936b8",
+    "size": 75950579,
+    "lfs": {
+      "oid": "fa98836315afeba18e286290e729abad8ee78c23af7288529c846e1cdb82fb6b",
+      "size": 75950579,
+      "pointerSize": 133
+    },
+    "xetHash": "6c26853a0116d1aebcf0786267592705ac4f38059b88e4806fd608c18bad38d1",
+    "path": "miracl-corpus-v1.0-en/docs-46.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "03ac88edd1b0701154055317c469b2139e5c094d",
+    "size": 72978719,
+    "lfs": {
+      "oid": "83b86f15f560d9dd7c9b83385b624228735403a372c5400a5a91b04c69f7295c",
+      "size": 72978719,
+      "pointerSize": 133
+    },
+    "xetHash": "ca1f69763c81d5ac262a288f7e100872db8df802ad59ddba28aad91e0515d0ce",
+    "path": "miracl-corpus-v1.0-en/docs-47.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2b5f7f689218197a0b5467520a14b24209dd6bff",
+    "size": 73930541,
+    "lfs": {
+      "oid": "d093bd06d07e495cbee56cd97288742a55eb9730059c0b165e14d75f1c91d775",
+      "size": 73930541,
+      "pointerSize": 133
+    },
+    "xetHash": "6066e90501ae4ce56f0bf430030f82d8afdaa08550265a7c504542b31a478767",
+    "path": "miracl-corpus-v1.0-en/docs-48.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5b81b8416535d0f96566b2440c2088bc1b104909",
+    "size": 74004419,
+    "lfs": {
+      "oid": "e075ce23fcebaa15c8ca4946e71b07fc27470672f1cd1d3bd1dd4b0e5d17fc11",
+      "size": 74004419,
+      "pointerSize": 133
+    },
+    "xetHash": "b8dc83db7db0d1cdfc789c28a8fecacd61622ca5e6caa330b75f09f8444ec914",
+    "path": "miracl-corpus-v1.0-en/docs-49.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "57ad910a97c4da04354352edd9ebb8a0cb99364d",
+    "size": 91542927,
+    "lfs": {
+      "oid": "aa4a520a843969a7ad73100967e4f228b8811db3f09cea4bc34bdf38aa4588e3",
+      "size": 91542927,
+      "pointerSize": 133
+    },
+    "xetHash": "fb37fd6fcbf5e468ddea7dbab8888316548103d506b1ce44a8bd652ea8dcbb02",
+    "path": "miracl-corpus-v1.0-en/docs-5.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "6cc1b2a50c7d6bf09adda770602497c626bd5419",
+    "size": 70736448,
+    "lfs": {
+      "oid": "526164b6eff6477fc572e5c85e772e5065f323d71abb79e2d13a2275c4ff48d4",
+      "size": 70736448,
+      "pointerSize": 133
+    },
+    "xetHash": "5989de1dda94d624cb0f0949bc38c0d9073bc63efd968b50d52c11a6c1ed50ae",
+    "path": "miracl-corpus-v1.0-en/docs-50.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8758f925879b0432510cefbd329aca8b40d705ed",
+    "size": 73415840,
+    "lfs": {
+      "oid": "d391faeacca55490a379e43a950b0de2cb148a0b2b32a7e29d76cb2b82b36973",
+      "size": 73415840,
+      "pointerSize": 133
+    },
+    "xetHash": "2038f5e8bc16eb4126c4e725536aa24adeb22eb22433a1a7377465cf4492de13",
+    "path": "miracl-corpus-v1.0-en/docs-51.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "599f488545d65a50bdb77683b2ce616ca2071d7e",
+    "size": 73776910,
+    "lfs": {
+      "oid": "bc3e022fcf78f03ba5753547827c9963248cb6c4ede235230f4fd5098dcdc1cf",
+      "size": 73776910,
+      "pointerSize": 133
+    },
+    "xetHash": "05e9c4f49178ca3ad86f43a8bbdb1c871b91abbea54c3851f02b336b79160f71",
+    "path": "miracl-corpus-v1.0-en/docs-52.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "9db8cd807217afc6aeac0ad5f16ee46612803cd7",
+    "size": 72091328,
+    "lfs": {
+      "oid": "3678ed57b8839e90142ea66d1ab02b07f7e2bf6a264f6eccb2844593f6b76f2e",
+      "size": 72091328,
+      "pointerSize": 133
+    },
+    "xetHash": "6e85f30a2966169f6f7d2211cf2651efebe8032c6444cd13494b6053c2c73166",
+    "path": "miracl-corpus-v1.0-en/docs-53.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ebb8c41b932027037c7bee97e63127618c77d2c5",
+    "size": 72782654,
+    "lfs": {
+      "oid": "49940fda3b789438a5d0be44c97ac3a49e84340c04a6b9d6a63862c6ed8b7f20",
+      "size": 72782654,
+      "pointerSize": 133
+    },
+    "xetHash": "e9f310e8b62f787f727cfe9abffdbb89d1c8fe124e485a2ab79ec190c6ce9a5a",
+    "path": "miracl-corpus-v1.0-en/docs-54.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "afd062333f7742842382e089b458778de35cc6a2",
+    "size": 70569978,
+    "lfs": {
+      "oid": "17d9e309b2ccae8a992e11b06c6f2acf34f51d52089d18f4375afe012fb4c1dc",
+      "size": 70569978,
+      "pointerSize": 133
+    },
+    "xetHash": "3db18556396090f2aa459786afd29cd1a97e0d4e9cc6e9abd9975e38264141eb",
+    "path": "miracl-corpus-v1.0-en/docs-55.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f77dc02187204126f58f60e5851ee6b77f491b59",
+    "size": 71740868,
+    "lfs": {
+      "oid": "b76fcbdf092b48b06564112a66feafe7a7463550c142a74eca44e032ebca745e",
+      "size": 71740868,
+      "pointerSize": 133
+    },
+    "xetHash": "61e49779cfd4b7d19ad6515980cf7a0190ce4b2e522a207e79ff857ae4221361",
+    "path": "miracl-corpus-v1.0-en/docs-56.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "a7901b1cec72d493314660c7cc2703a092ba760d",
+    "size": 72217620,
+    "lfs": {
+      "oid": "f8f51cf11dc8d4527d5128d0ed566ce0d7eeccb601342b232ee81f1e738abab9",
+      "size": 72217620,
+      "pointerSize": 133
+    },
+    "xetHash": "55c18ba11499836815e75193785cccae30ec3d5f293a9cfd99110cc398c14cbd",
+    "path": "miracl-corpus-v1.0-en/docs-57.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "824b4d5121771b52e5c6524c56fd5308c6882e03",
+    "size": 71862927,
+    "lfs": {
+      "oid": "acbeb217eb03a3f290aef68a734bc664e0471bfd9a9f941b52cb3150112463ff",
+      "size": 71862927,
+      "pointerSize": 133
+    },
+    "xetHash": "fb654e263e0711bf554776c45ebf4f35f585ac809bcd00b37a6676744f6522ec",
+    "path": "miracl-corpus-v1.0-en/docs-58.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "0704e4ff60b09a3c10b298130c0dd21b5c4b7c4b",
+    "size": 71495670,
+    "lfs": {
+      "oid": "f5a0c6dc462ef6b533dff24277dd6b33a4096c3e965e14a55f252ff3fe3ae4e2",
+      "size": 71495670,
+      "pointerSize": 133
+    },
+    "xetHash": "9495d98ebb5f10859b640574f23eff58ebf178af0302d8c44387327e4bdd3371",
+    "path": "miracl-corpus-v1.0-en/docs-59.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "83d6717f18dc30de676dd1f92597d57b05a0cf77",
+    "size": 88919126,
+    "lfs": {
+      "oid": "e11ff2879ee60599fbe12cd7eb7ac83414db282ec63e7125ca0504788c184cd2",
+      "size": 88919126,
+      "pointerSize": 133
+    },
+    "xetHash": "cca00599f52f5e25cb2c504fce5b126257ef6f260d6e099e2a94361762041bc6",
+    "path": "miracl-corpus-v1.0-en/docs-6.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "880deedbacabbbf53c23d3c2198c12a43c84f322",
+    "size": 69897224,
+    "lfs": {
+      "oid": "97f724273e162cc7832936a5d5d215b63e653e09850c689acd2888e27a13bd5e",
+      "size": 69897224,
+      "pointerSize": 133
+    },
+    "xetHash": "fa98cda09d8f0cf091da81c980768013c9c9613fa20587f902032df52504ddc3",
+    "path": "miracl-corpus-v1.0-en/docs-60.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "031528cf51b72f527bca81c9766f538cb5cfd584",
+    "size": 70170718,
+    "lfs": {
+      "oid": "2b7a06eab2d5b7e85752032d08979e107164bdafd1a7e4a6f27969c4e6f63e80",
+      "size": 70170718,
+      "pointerSize": 133
+    },
+    "xetHash": "58324bb654f3944513dd4a45d33affd896beb6d3f44ce72a7f39b3d59dcc2077",
+    "path": "miracl-corpus-v1.0-en/docs-61.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ecaf3f057eef4151f8c875a8baebb9008cb0e469",
+    "size": 69279270,
+    "lfs": {
+      "oid": "785e1bcb1499b5018fc8bedb69deac2ccb78be3950196b4c9ea28a1b6c540176",
+      "size": 69279270,
+      "pointerSize": 133
+    },
+    "xetHash": "90a94d438ecb4857da86ccf5edcc562ab4955191d87302592aaee0dcf585602e",
+    "path": "miracl-corpus-v1.0-en/docs-62.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ccb95c92a2b9fb93461db13d90ed8bb3b98ee3f4",
+    "size": 68754531,
+    "lfs": {
+      "oid": "5f33445c93d384363d583356727e76ae60a74349806f98ebab41ed27382c3f92",
+      "size": 68754531,
+      "pointerSize": 133
+    },
+    "xetHash": "1e527f36cd2ff70911bdc08d96130123d32a4787114efd95af7c60ca955263d0",
+    "path": "miracl-corpus-v1.0-en/docs-63.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "20d1b6cf8c5ecda502f285948e85de67370f5e2e",
+    "size": 65487314,
+    "lfs": {
+      "oid": "bbc4235e201879afccc626a2288b1896b84fee6c5fe51675f89aaec1004340fe",
+      "size": 65487314,
+      "pointerSize": 133
+    },
+    "xetHash": "4c909c458a920d193be71cd352602961bf4062943e93f40b21c8e1efa8d90247",
+    "path": "miracl-corpus-v1.0-en/docs-64.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "56da160dce0ee4827085c0b5883d199dea60811d",
+    "size": 52897612,
+    "lfs": {
+      "oid": "d736c2fe0bb93b76142c485b052561f395dcc7cbe6ac9f92d9668f9ce0291b39",
+      "size": 52897612,
+      "pointerSize": 133
+    },
+    "xetHash": "599f971dff34162d840f29ce593c0652d3b7835409d629f537f37d6df8c0a1aa",
+    "path": "miracl-corpus-v1.0-en/docs-65.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "544e8b4982464a7216c2dcfcbe777aee9213bfd4",
+    "size": 88149943,
+    "lfs": {
+      "oid": "80a91a7b5c53253fbe1646da3b064e33ec845d9d21760d0b071b57150ce0343e",
+      "size": 88149943,
+      "pointerSize": 133
+    },
+    "xetHash": "300f1f22022a45ab26fde41a9a716669ca6ad92909251b3f29f142e8cfb726e2",
+    "path": "miracl-corpus-v1.0-en/docs-7.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "764af19ce164a4a5de7a2f42a37ab7bb6c646059",
+    "size": 87557556,
+    "lfs": {
+      "oid": "324087c58fe99390a5b3365cbe562ea1ba83ce67757383c57c8ec740f6923f4c",
+      "size": 87557556,
+      "pointerSize": 133
+    },
+    "xetHash": "5ca9c7b2186a661178629669aafa81c4bd38e6110907065981df6905da067984",
+    "path": "miracl-corpus-v1.0-en/docs-8.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "054b5af43184f3305fe6c57ed3a699f2f600939c",
+    "size": 86565246,
+    "lfs": {
+      "oid": "ff98a5dcfc84b3093c5c674160f478104b3ef78d534db9681d45d3e2d2d218d8",
+      "size": 86565246,
+      "pointerSize": 133
+    },
+    "xetHash": "4812ec95d8dbc5a54e2861704f5a5ad438bf8df68a258ae5b0576e2f0514d259",
+    "path": "miracl-corpus-v1.0-en/docs-9.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f9979ebbef51e584596018beb102b60932a8b97c",
+    "size": 92874838,
+    "lfs": {
+      "oid": "e261da2adb2a5d817756dc6d9f977ab70d5ee350faad7b6e129531413d8fae89",
+      "size": 92874838,
+      "pointerSize": 133
+    },
+    "xetHash": "730f96797d054d19a603d813e9285b0ba0d4dbf2be5bb69a6d935accd7722618",
+    "path": "miracl-corpus-v1.0-es/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "692a0d220840024daae538ed318f1d6444d69c23",
+    "size": 89646018,
+    "lfs": {
+      "oid": "5b401eb58a17f0e79ae65bff467002198e0941f06e1e4be3281c2170be18e044",
+      "size": 89646018,
+      "pointerSize": 133
+    },
+    "xetHash": "746b3b5398d3231668f47b38c9d1a66ce574fe5802c3caf1028fdbfc59f77bba",
+    "path": "miracl-corpus-v1.0-es/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "465b4da5ce5ebe9ab96253e88f6b5600d06a3808",
+    "size": 62622594,
+    "lfs": {
+      "oid": "786c4719e7ca55c39f35bebf08187e029ff3c60cc03a3a48206c7ac82ae4cc87",
+      "size": 62622594,
+      "pointerSize": 133
+    },
+    "xetHash": "4ca90b8331268718553f6163ca926d95259d8dd908089804f53a7eefea0e96c6",
+    "path": "miracl-corpus-v1.0-es/docs-10.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "b05e8bf68bf6dd0d351b60e056b1e804124c1336",
+    "size": 65707558,
+    "lfs": {
+      "oid": "9dd5999ea0758dffddae62cf520acf49df4c740b11d84edae89fde1aee61bab4",
+      "size": 65707558,
+      "pointerSize": 133
+    },
+    "xetHash": "b1f63ae994468c020b933c0ece1b62237d84413b8a4c350a7ccc931e895bcc3b",
+    "path": "miracl-corpus-v1.0-es/docs-11.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "fcb20e3ba868d99c4589c322a42c78aff0069d5c",
+    "size": 72601971,
+    "lfs": {
+      "oid": "0a96b56afc525ae6d09723e261520dabdeb798e7108ac2fc6da7d86332a97e4e",
+      "size": 72601971,
+      "pointerSize": 133
+    },
+    "xetHash": "6764f50ae359ed71d5a39c15e0df7f35dc587fbef9b4814c0663b37d3a5677a2",
+    "path": "miracl-corpus-v1.0-es/docs-12.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2c2f7467e460bf3c182de4f0a88dfd1385d20774",
+    "size": 75474457,
+    "lfs": {
+      "oid": "4971d40595f1ac490b7a5242ded410cbed6c8688b19a53fc972c5ae36e3c216e",
+      "size": 75474457,
+      "pointerSize": 133
+    },
+    "xetHash": "88c03c01e79323734940f0581ac27900ca807cbc3870d534af8568f7356cfbd4",
+    "path": "miracl-corpus-v1.0-es/docs-13.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "6db4bd117a81179412ccbbddeafa758f38850bb6",
+    "size": 76497338,
+    "lfs": {
+      "oid": "9191f145e01d54f6a0a1a6a82a45c9bc32289b8b8b59c16b7fd6ed9e3bb4cd80",
+      "size": 76497338,
+      "pointerSize": 133
+    },
+    "xetHash": "8261423723fc224cb0b2864daae3c10d5aae18e8f587d6a0efa0b9fcb01e64ce",
+    "path": "miracl-corpus-v1.0-es/docs-14.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "755415079ce935a08d76d5aca4796412ceac9c28",
+    "size": 73009124,
+    "lfs": {
+      "oid": "35fb76b2007d723fef8a035478585995cefc9c96cabe2102144ed6def185c357",
+      "size": 73009124,
+      "pointerSize": 133
+    },
+    "xetHash": "01db6babb2ceb923cc2bc8e845ca96656605db20f07c229663ec92b72e612d5e",
+    "path": "miracl-corpus-v1.0-es/docs-15.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "57ffc5b3dc9345c8611b552032a48b1c0134952b",
+    "size": 74206192,
+    "lfs": {
+      "oid": "85f4715e859a5712512e82747bda3a397b33ae96a13f960eedb60a482d1b1bd3",
+      "size": 74206192,
+      "pointerSize": 133
+    },
+    "xetHash": "9f562962de02c0e68e36e1a10e99c72e1ba0354f046406da3705917230bb2d4d",
+    "path": "miracl-corpus-v1.0-es/docs-16.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "d7962589d75f7a296b6e60dffb7e901a0a8169f4",
+    "size": 67140050,
+    "lfs": {
+      "oid": "69da4bf00f0c306e83c023194c64eb0aaadbf0e0db982b6ea04fec023f37770f",
+      "size": 67140050,
+      "pointerSize": 133
+    },
+    "xetHash": "329dd5d03703eee387e00a5938c48486db3ed1a7e01871a2c3e1a99bc8f69b03",
+    "path": "miracl-corpus-v1.0-es/docs-17.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "59924a549137f38eaeeea8bb2dac44a1febfe867",
+    "size": 77883748,
+    "lfs": {
+      "oid": "021d4a9d1c3c12bf3ce6452e100225325eca4334886366672e62e560b0b5f2e9",
+      "size": 77883748,
+      "pointerSize": 133
+    },
+    "xetHash": "05d99dc549d3d0d382bd29ad8a91393ec370cd3bd82fb206ce5329f2b58a2b83",
+    "path": "miracl-corpus-v1.0-es/docs-18.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "fb900857df7b1a8f7d395acb1d9ea138f07fe77d",
+    "size": 79904116,
+    "lfs": {
+      "oid": "87a7ba959c95322c1c52c01fe3c963f0f985a04a2af1a0c12b79b4c86fd8c380",
+      "size": 79904116,
+      "pointerSize": 133
+    },
+    "xetHash": "05f9cd7de40b78cecc1c4978f22c64d22136e019ceda048e364b967477c92f55",
+    "path": "miracl-corpus-v1.0-es/docs-19.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "699ee779bf5e02b928bdc74fa63e8b2537cfa88c",
+    "size": 85432948,
+    "lfs": {
+      "oid": "ec29aa9739b53773794263af43bd91a796c698c9e5afe1b42a44582eccee554c",
+      "size": 85432948,
+      "pointerSize": 133
+    },
+    "xetHash": "4012f021e7335213b88a074e3004fa06d36809a66b25b15b2518776c13e21bb5",
+    "path": "miracl-corpus-v1.0-es/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2e7cb3210fc4408e1b89dee166b40d0a8002aa31",
+    "size": 57162245,
+    "lfs": {
+      "oid": "b83994557e57ce12211469223f1e63e47096a6e306bd6470a419d5c9eebf6448",
+      "size": 57162245,
+      "pointerSize": 133
+    },
+    "xetHash": "ae2f2776254fd09d70939eb5efa53f1cdb25709988c1e0d74576cceb9b2029e0",
+    "path": "miracl-corpus-v1.0-es/docs-20.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "11dd487573fe9092b86415c2611d2303fdd72f0a",
+    "size": 83318741,
+    "lfs": {
+      "oid": "4e10f379d2f915d141e24ea795941dc009925b3017260bb857e075559838277e",
+      "size": 83318741,
+      "pointerSize": 133
+    },
+    "xetHash": "4c5cf4a7144bf3716364e2576fb4f8be1857e915131d56f0a884206ffc0014e3",
+    "path": "miracl-corpus-v1.0-es/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "9a80971c36679109cea344b81407da6f3057d2a7",
+    "size": 80843535,
+    "lfs": {
+      "oid": "f294274f3f006e0701df91e97d2faeca5d7fce2d89ff55ccdc128ce733a03a3d",
+      "size": 80843535,
+      "pointerSize": 133
+    },
+    "xetHash": "eef891217958746a8eb75777ce3d8c4a1784d2755af220170d895ea092fe8ed0",
+    "path": "miracl-corpus-v1.0-es/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "3737173a975807490e5e1723f40ebcdc631b3ab2",
+    "size": 79438738,
+    "lfs": {
+      "oid": "92c7c42da0695eee50da92bfd6b901ab617c6bc9d73b49501dd1d141d7f71af5",
+      "size": 79438738,
+      "pointerSize": 133
+    },
+    "xetHash": "d02d3b7833d99062aa77a95dde9a65bdee3ba8a39cf13c58737c9cd67ea8faa8",
+    "path": "miracl-corpus-v1.0-es/docs-5.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "273e7a00447da75132b9c6ef3c7db5c5c6c35115",
+    "size": 79152845,
+    "lfs": {
+      "oid": "93bee2777c2a60dcf0c1d55e840b0b2a8bd910c2eacabe7241b78b6f30f05bcf",
+      "size": 79152845,
+      "pointerSize": 133
+    },
+    "xetHash": "b3d56cf9fed6af88839adb12ec7a06ebf25a2a4fd9394b192fbc3c65a71654f5",
+    "path": "miracl-corpus-v1.0-es/docs-6.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "d630c3e03e629a1b6e96fa1a2605ed3d4b48bdc2",
+    "size": 78544890,
+    "lfs": {
+      "oid": "f2468bc7e7e5e8cbb255e7e6209c8b6b3811cb05dc90f6d8563a78697f544914",
+      "size": 78544890,
+      "pointerSize": 133
+    },
+    "xetHash": "efe73d3a8ea4a7b4d073d7350ab371a542cdd2a4907faddbd4c4d53e77dae0d2",
+    "path": "miracl-corpus-v1.0-es/docs-7.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "1d887958d983523049627c7c39bf1269c8320b77",
+    "size": 77588034,
+    "lfs": {
+      "oid": "efb2be897deedad614cde103981c78a60609a7948e6810e439e8c753e4b57878",
+      "size": 77588034,
+      "pointerSize": 133
+    },
+    "xetHash": "559d49b5ba2e2ad6c4a5e77787ca8b229b8a97461007453a28b2d9b4d7ee4a12",
+    "path": "miracl-corpus-v1.0-es/docs-8.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "853b4cfa3c667b2d815d5388636f8a055775e17f",
+    "size": 66337959,
+    "lfs": {
+      "oid": "aeaf18be6c02823abda01da4f149b49b1860112e09572023203fed923fae0155",
+      "size": 66337959,
+      "pointerSize": 133
+    },
+    "xetHash": "624345c04db9645dc47121e08c34d73ee8e16332b12ad2802a325ad596a81b03",
+    "path": "miracl-corpus-v1.0-es/docs-9.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "d8bcf9d328b6fab9d1867448a91a5fc69b485dc4",
+    "size": 80831146,
+    "lfs": {
+      "oid": "774c022446b3f9b61b677e13fa9586aedfb6ffd352ddeb8f62a9289dcb0e15c5",
+      "size": 80831146,
+      "pointerSize": 133
+    },
+    "xetHash": "94a936c0309c1b8dfbdd1621473c570b91bebe0458e130946796d22f0b9acafd",
+    "path": "miracl-corpus-v1.0-fa/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "9832be886f401ebaf9195bdb80ce3cd31e4af663",
+    "size": 56314013,
+    "lfs": {
+      "oid": "224b72daf07e301cbb7e5d5fd8f5c3354bd16fd5958d174cf2e7be829eb9b111",
+      "size": 56314013,
+      "pointerSize": 133
+    },
+    "xetHash": "c6f70d6bd127349aa26c9099d2bcffba5b219a497575cafdfde46bc05cd00eae",
+    "path": "miracl-corpus-v1.0-fa/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "3ce82026a35926c550a87812801a382571cdf91f",
+    "size": 53167889,
+    "lfs": {
+      "oid": "56376041519e6faa61fbbf61a5ead5041952f1f6babacaf45482c938054703b3",
+      "size": 53167889,
+      "pointerSize": 133
+    },
+    "xetHash": "2c22bfbdf8a2a7d4d9710016affb0ca8c45b688521a45ec7b1a331c1eed2201b",
+    "path": "miracl-corpus-v1.0-fa/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "087f38f27d6a4aea212048dc324d32ed7c528952",
+    "size": 57027208,
+    "lfs": {
+      "oid": "c43baa29290caf1fff6e290fec01a79e052c71c3211429a43386d2d4d2e4a4b9",
+      "size": 57027208,
+      "pointerSize": 133
+    },
+    "xetHash": "980147d3d1b171bce890eb6c4b403d13119e75e51ade87e1dda2801fdbd15e35",
+    "path": "miracl-corpus-v1.0-fa/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "4c1dc3c782aad3447a239cdf4e7bc8d6985612c8",
+    "size": 22422574,
+    "lfs": {
+      "oid": "5d9dcd877ca7b38761f3c6bbdefc8eabd8514503721b0eb56290ed15dc4fa436",
+      "size": 22422574,
+      "pointerSize": 133
+    },
+    "xetHash": "2ff67b6b46e01c25db293a73943b191647a876cecb872bef95c83ac2a689ba29",
+    "path": "miracl-corpus-v1.0-fa/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8bed41cc2be1f1b31a5275c8aaab01f337d32fc4",
+    "size": 79712094,
+    "lfs": {
+      "oid": "6d3695493caa0bc02189588a4120064c8c44a713cfb25dfa2abb0f10b5ac03fc",
+      "size": 79712094,
+      "pointerSize": 133
+    },
+    "xetHash": "7441f5d82b166ff934e1d2e8cacf4e0592d2ae2baf9cf1391dfff13b9149961b",
+    "path": "miracl-corpus-v1.0-fi/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "13b72f9b2d7a7a25ec38d959210c64efbe87edb2",
+    "size": 71207705,
+    "lfs": {
+      "oid": "6408dfe293d0cac77ea3e3ba4e4d9eea081fb31ec42beb739f419c3eace24653",
+      "size": 71207705,
+      "pointerSize": 133
+    },
+    "xetHash": "3c06a5112628d9f39d21e8e10b9057a398f7206cf1bc57643e8582c4125378d6",
+    "path": "miracl-corpus-v1.0-fi/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "0904e2a679a3d13d45450793308fdd2e752ad428",
+    "size": 68005963,
+    "lfs": {
+      "oid": "32817fdd4545810f71139263e93efa223be1c7965e4ec16489b3a0ac8f745dda",
+      "size": 68005963,
+      "pointerSize": 133
+    },
+    "xetHash": "acc6bab9e0fd5caa5116eb6b1cb4bb91de4f28f9dba814b3c6f9bfcf9f78ad73",
+    "path": "miracl-corpus-v1.0-fi/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "577da55ca2f00b801e705b57db33ee54677c0d36",
+    "size": 51120372,
+    "lfs": {
+      "oid": "51b7548aadf41275d9f65fde8f16185c2d6e55e32646547bd56f8acb6c9b0a35",
+      "size": 51120372,
+      "pointerSize": 133
+    },
+    "xetHash": "431f150ea8123343b54ece527e31a0eb3ae2a69553b073eeefefa255f69b6e3d",
+    "path": "miracl-corpus-v1.0-fi/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "18ea9c85d8a5352e8180c86e62f984411e0e3a34",
+    "size": 81033537,
+    "lfs": {
+      "oid": "974e33e06d2044fe1a25ff9d0c82debc9d22282bb43fc7d2fb4ae7a6e9e527b5",
+      "size": 81033537,
+      "pointerSize": 133
+    },
+    "xetHash": "cbade7ce2c289cff09802bf84d0e16ae690b368b0abba2d232f0e3bf68197656",
+    "path": "miracl-corpus-v1.0-fr/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "47e93783885abd922f68d9a9fd887c7d6cb5a3d9",
+    "size": 78469930,
+    "lfs": {
+      "oid": "342a2b2d8fd906d9796db2c2b4930a2895bb19cb117d7c09cf76ae187b1ef26c",
+      "size": 78469930,
+      "pointerSize": 133
+    },
+    "xetHash": "e3bcb25c89b3652750c45c1aa3611b967dd9b6b5a8d2e79becb72e6045163936",
+    "path": "miracl-corpus-v1.0-fr/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "967fc46057781b72d918cebb351a699202e27cd8",
+    "size": 67698213,
+    "lfs": {
+      "oid": "a1634f56a9181954114bcaeb7b9a1c0d225d32fd23c91c2ee2da3d23557ff5bc",
+      "size": 67698213,
+      "pointerSize": 133
+    },
+    "xetHash": "2177bd21f251a12eb9e7b398d915e9ba7f854572a100de6c7b1480304a54230e",
+    "path": "miracl-corpus-v1.0-fr/docs-10.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "acb8625bd5bd05159fb4cca206cbf7126b4346e3",
+    "size": 67898616,
+    "lfs": {
+      "oid": "e73376cd4eddcb2af9f12bb4248b465cfeafbdbab7df4b8a5278535e2265e786",
+      "size": 67898616,
+      "pointerSize": 133
+    },
+    "xetHash": "679698344099b3d513a990da6eee494b5c91facf9f9d90bf7ffaa003ff3813de",
+    "path": "miracl-corpus-v1.0-fr/docs-11.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2321f238f35e578a01b64869d5c9d7191abd37d2",
+    "size": 66768800,
+    "lfs": {
+      "oid": "2863306fe79b9918da367197125800061ca4b1c418db5f1698960f822a9bdc67",
+      "size": 66768800,
+      "pointerSize": 133
+    },
+    "xetHash": "ffdcd87acfe53cd950fae42f8bc6d07d99a580512ab2509866b1670fd71c9ed1",
+    "path": "miracl-corpus-v1.0-fr/docs-12.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5490908ff20d9ffee2fc3602a559eff96fa8c96c",
+    "size": 65451686,
+    "lfs": {
+      "oid": "c47f01aa2968926cb5bdb2575b06dbf10a6f823d553e6e1c30a1b58fd268d3ba",
+      "size": 65451686,
+      "pointerSize": 133
+    },
+    "xetHash": "98def5fe42a0adcc1429d2b25c80e80942f57a3a58908ee45ae54616eb33b646",
+    "path": "miracl-corpus-v1.0-fr/docs-13.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "c37cdc36da31fd175d0448414ab050e8e65e246c",
+    "size": 65202296,
+    "lfs": {
+      "oid": "8bb09d9d186024dc21b05437c780fc88c80ce23a822fd4efd31689412e70e827",
+      "size": 65202296,
+      "pointerSize": 133
+    },
+    "xetHash": "e53a35f67538959c437f19ffc2bc93a77378c77c52da2b00ba0f671b4a13349a",
+    "path": "miracl-corpus-v1.0-fr/docs-14.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "13651c86714f0282944b8f16df47e6b02df82234",
+    "size": 62889747,
+    "lfs": {
+      "oid": "d294afa321ae95b71fec626a17f8581f902a223eb2eff429864365e2d3fea9ef",
+      "size": 62889747,
+      "pointerSize": 133
+    },
+    "xetHash": "c7f1f13a4080a5c070faf9786e1454b6bdc24e1556b49a21dd1e122b97e9bae2",
+    "path": "miracl-corpus-v1.0-fr/docs-15.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "549c3f62959b78a0d91589c71e861238339cefe8",
+    "size": 62186443,
+    "lfs": {
+      "oid": "7f2b07038d6d7b72cf235cb592d056067afccaaaf0a3a411c2fa98188e1bc31a",
+      "size": 62186443,
+      "pointerSize": 133
+    },
+    "xetHash": "58c2bc22bb6376c29b47906b1923f49cae6b13452972c7d2f74393cb7145fc36",
+    "path": "miracl-corpus-v1.0-fr/docs-16.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "bdc819f6dfe931bf86fc84ad12f347f01aaa4358",
+    "size": 61659176,
+    "lfs": {
+      "oid": "c4de5fc73789e9d72bac9b20a24335ce786176414dfd36029cf01d66b4bb871b",
+      "size": 61659176,
+      "pointerSize": 133
+    },
+    "xetHash": "e5dd76108827d1aa544282064e88b057fb66dad7b2e740fc1e2438e1829617bc",
+    "path": "miracl-corpus-v1.0-fr/docs-17.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f23b42758fb729cc840edcc928f56f1a3659665f",
+    "size": 61297567,
+    "lfs": {
+      "oid": "f699db74f2c6c1f08addd68d0e13bf2a9fc90363923189a79bde3d8c54377dcd",
+      "size": 61297567,
+      "pointerSize": 133
+    },
+    "xetHash": "a44a6a7e33c45fb2b71f2b700679e9c32d974fb3965ecde72e9985e5f248f2ba",
+    "path": "miracl-corpus-v1.0-fr/docs-18.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "11f5855c05694f7af8e71acad4f17aeb58c94c46",
+    "size": 62810856,
+    "lfs": {
+      "oid": "fa89c5268ccb61d2ca07e46228b5e49bfcf00e1ceff0b5ac4f0083a40584714b",
+      "size": 62810856,
+      "pointerSize": 133
+    },
+    "xetHash": "812f350bb345d91bff40f3242fc8808ce69cac457a750214c55f42ac0168471f",
+    "path": "miracl-corpus-v1.0-fr/docs-19.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "25f94596327997bb8861d23958bda65b0094920a",
+    "size": 70017319,
+    "lfs": {
+      "oid": "1e65062c8c3c8261e7b7c7934cd3105e5e311bde38bc2708c3372171a48acdf2",
+      "size": 70017319,
+      "pointerSize": 133
+    },
+    "xetHash": "a29f6e19aa6d46f0e9753691a5f8b1da30552374fe8c28a135357167d8505da3",
+    "path": "miracl-corpus-v1.0-fr/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "a77c7c76ff4ef63295d2502abe9ee2bee1de6194",
+    "size": 62973327,
+    "lfs": {
+      "oid": "6e8ed88103b0c9b6df6621494382090c236d25ff61ada74fb6fd0ae4d375682a",
+      "size": 62973327,
+      "pointerSize": 133
+    },
+    "xetHash": "c4253dedead6753848f8cb1b020bee20ff22276a9a82f6fb9afa4f81a7d5ae4a",
+    "path": "miracl-corpus-v1.0-fr/docs-20.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "d6006b8863f1b55d148a2b5e77188e112df82467",
+    "size": 61427017,
+    "lfs": {
+      "oid": "56c3dfd34c1369f3cc8197af72e3541ecd4d2c42d226a83ea8bd992bcb4fb374",
+      "size": 61427017,
+      "pointerSize": 133
+    },
+    "xetHash": "dbc2a0647cf41ba46479d54383dab433551ffaaa7e29efec211e956468e46aaa",
+    "path": "miracl-corpus-v1.0-fr/docs-21.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "755139859318d59531a4c36d0680f9907cc82ab9",
+    "size": 58091930,
+    "lfs": {
+      "oid": "c48098e1e4ecdb2b5a24d979ae0e2c572db425622e5f1aceb128e48fa2e36607",
+      "size": 58091930,
+      "pointerSize": 133
+    },
+    "xetHash": "17c66072feda7a38081d8d3c7896b9fa4a6df402251a84d2313d3839d5b6721f",
+    "path": "miracl-corpus-v1.0-fr/docs-22.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "fd790a7ec126f91af6eaef1c2fa6914358ffe039",
+    "size": 61344070,
+    "lfs": {
+      "oid": "0611bd95361180d6aa9955372324dd12bf05f7860bc9706af6cdbdb8ae3fcf85",
+      "size": 61344070,
+      "pointerSize": 133
+    },
+    "xetHash": "eae7af26e50994c85dd979ef5f58db12f1bc34b9093f640c7452bc2258082cb9",
+    "path": "miracl-corpus-v1.0-fr/docs-23.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "6234296c67d048d5fe0a1547d48cba487509dd9a",
+    "size": 61250359,
+    "lfs": {
+      "oid": "8161fa49ac7f17ef0012597b8ed6cea4e635307b9fc68b972f2ec495081488c0",
+      "size": 61250359,
+      "pointerSize": 133
+    },
+    "xetHash": "63f1422b83df58fe8553448628f080c294f9b41ea019f0c639d86a2b47e3e70e",
+    "path": "miracl-corpus-v1.0-fr/docs-24.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8f0f7df9849f95860e3f5b96bb4b1d3787f7726a",
+    "size": 56044622,
+    "lfs": {
+      "oid": "f4f0f810432783dc84bf759bf895104f4d5cbdca0cc6ae63089ae25f676ca0cf",
+      "size": 56044622,
+      "pointerSize": 133
+    },
+    "xetHash": "f80bc51ea9d1f6d0ad0b2b1522c7ef5c5e17da61eb1adb953bbd4605d158e9b9",
+    "path": "miracl-corpus-v1.0-fr/docs-25.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f44e37a19e02783d80b8f40606ea97d1ab783af5",
+    "size": 64189087,
+    "lfs": {
+      "oid": "08d7709f90310b01c7198b8be1068041d4588191ff7a5b5c319d9089631a88f2",
+      "size": 64189087,
+      "pointerSize": 133
+    },
+    "xetHash": "ca980199c774ef070dcdf6c2442455d152f3aedecaec41c10445626e66b3225b",
+    "path": "miracl-corpus-v1.0-fr/docs-26.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5afd332214b3c40fb020ecd4b2a68bab9a2d65fb",
+    "size": 65662563,
+    "lfs": {
+      "oid": "0f8eeb40928b8fd1d399450082e7e4c836b3ff3316341793e3fd8fc8ca322412",
+      "size": 65662563,
+      "pointerSize": 133
+    },
+    "xetHash": "f8067a5e818dca8a7d1517e7fc324c082b01f42d892639e1bb5dac11ce5d4aec",
+    "path": "miracl-corpus-v1.0-fr/docs-27.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "db5aa9bf564e4b0e1b08c2cd52f11d4500204e3e",
+    "size": 65310822,
+    "lfs": {
+      "oid": "52e133bc7493dd22c75f00dbea4d1dbac768136821122335095d3cc1c2983758",
+      "size": 65310822,
+      "pointerSize": 133
+    },
+    "xetHash": "a670c7463891ac6f19e73fa6fd0887be7159287903d1ac0215fd3c864c9da67e",
+    "path": "miracl-corpus-v1.0-fr/docs-28.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "30f597b4c2150145ecaf2c2c50f832389414740a",
+    "size": 18176293,
+    "lfs": {
+      "oid": "a782e5c5bde02be39a7fb858f1d964a2ec65ccad1080b6b5a1c44cd2687ef6ec",
+      "size": 18176293,
+      "pointerSize": 133
+    },
+    "xetHash": "93a1a82ef7937046b1f2b06f1f1e9d7597223984b770ec85048f52fb8c482826",
+    "path": "miracl-corpus-v1.0-fr/docs-29.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "611fd02740e5de3ceb7221d368fc18671d3a2116",
+    "size": 66942793,
+    "lfs": {
+      "oid": "b06bf31c75c8c630091902f159de12a87b73dbc7099771bdaa1461dc01e4bba1",
+      "size": 66942793,
+      "pointerSize": 133
+    },
+    "xetHash": "db0a5802e9f7c408c6d7b214c8afd267ea004e9fcca0b3a92d09dd2d0bb533b0",
+    "path": "miracl-corpus-v1.0-fr/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "454ea148c97a94e50a0029557527eac1d06692f2",
+    "size": 59460892,
+    "lfs": {
+      "oid": "de9feb879656b36c46125857a07cf9d2c62e03c9bd915d9cfc553f44a4eb2d5c",
+      "size": 59460892,
+      "pointerSize": 133
+    },
+    "xetHash": "c48ed3931e1c67800b53ffcab70a484416e15f8cd202b034620bb605ce6b36b3",
+    "path": "miracl-corpus-v1.0-fr/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "47b1f0c2aefbc62f2420ba838f2633e382bffd5f",
+    "size": 62629125,
+    "lfs": {
+      "oid": "7f841597a30a4c2dbdf5e2f4af825ce541c354c3255897b11525397a32a53a35",
+      "size": 62629125,
+      "pointerSize": 133
+    },
+    "xetHash": "82418b008d418fdbacb26e17ab0e813be81e2231750801c4ff746bba00049b0e",
+    "path": "miracl-corpus-v1.0-fr/docs-5.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "291a280ca752006e5d8eecc5a3723a9fb9741cbb",
+    "size": 69205967,
+    "lfs": {
+      "oid": "93b38d494d4479d8bacf14336cdb4f3ac6c5cef18091a3deee409e8a606afee8",
+      "size": 69205967,
+      "pointerSize": 133
+    },
+    "xetHash": "2093f98c696c40c852b2886024c5e32f8ca4c0c3e2333e0fd5ecd1627c09d742",
+    "path": "miracl-corpus-v1.0-fr/docs-6.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "566e9332d6ced72cad4a02fcee55bcabad17dddf",
+    "size": 68194158,
+    "lfs": {
+      "oid": "38ce8d4e16042ad3c0671dd993260051ed0fc091657466f8fa37e7f40d86bc4b",
+      "size": 68194158,
+      "pointerSize": 133
+    },
+    "xetHash": "f771719bd11db43ce6f55c6290720cb851ffc2ba24bfdf33671126932449e5aa",
+    "path": "miracl-corpus-v1.0-fr/docs-7.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "86531fa6d50ef8ef1d3650bc8d9f290a46f6baa6",
+    "size": 68757697,
+    "lfs": {
+      "oid": "2a1a5bac5d4d5f697ac2186e3b5eaa8340ad929004fc960efe22c6b9686bb4fa",
+      "size": 68757697,
+      "pointerSize": 133
+    },
+    "xetHash": "415e624dc74de0f292baa3e85abe636e3414c3810c3ca8f5179c64186c6ec344",
+    "path": "miracl-corpus-v1.0-fr/docs-8.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ebf0bff43a594e28c8e6a0b8dea5cc544ee0bcf3",
+    "size": 68056019,
+    "lfs": {
+      "oid": "72230509aa9de93716bb376dcc75219286cfa1994c64d582b797a5b0c2e66ed3",
+      "size": 68056019,
+      "pointerSize": 133
+    },
+    "xetHash": "67156ec60e28a6135fdb3c5cc0d86c0ad5446063957fdf801f30efc573f7bca4",
+    "path": "miracl-corpus-v1.0-fr/docs-9.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "a9ce6bdbe0b5e4b0876af4d32f16388e7d010048",
+    "size": 95650487,
+    "lfs": {
+      "oid": "20035ebba59ff53859c10ac386306159249e2e4f1e449e1c796c399ac77745ef",
+      "size": 95650487,
+      "pointerSize": 133
+    },
+    "xetHash": "93de005f847234aa4bd91bb41b1a6f0a03ecb435273ec866e24da26a176d778d",
+    "path": "miracl-corpus-v1.0-hi/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "184dda123630d0552c72e6704a6b9421f393337d",
+    "size": 1161610,
+    "lfs": {
+      "oid": "f1446e533bcdde51ecb094ee031d1e74a6b9c3b92bf2321f7c27c5088d92974a",
+      "size": 1161610,
+      "pointerSize": 132
+    },
+    "xetHash": "2462d57bf4f32032f803921679325eaf6384427a793c6015979ec7d015d1f455",
+    "path": "miracl-corpus-v1.0-hi/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "1d98f5ca390198b374727a8bc423078ca5d0e98a",
+    "size": 68482339,
+    "lfs": {
+      "oid": "86d39c03a7b66a2340c2965a18d05ff4abc8463af89b1ad1228ada40845a06d4",
+      "size": 68482339,
+      "pointerSize": 133
+    },
+    "xetHash": "0b2e16637c6d62ef74766a68c59090c09daf9c1839a9666057f43d1e8ed995e7",
+    "path": "miracl-corpus-v1.0-id/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "98f07556209548cfe94bdbe16f334203b1765b0a",
+    "size": 39714366,
+    "lfs": {
+      "oid": "f51fb5ee259c075fb862fc05be05105a260d2fb4ef471bda2f8174562cf1f468",
+      "size": 39714366,
+      "pointerSize": 133
+    },
+    "xetHash": "45cd048243bf710d8d5f26cd4acf0b07b3327d9b7f66cf37119772486bc272cf",
+    "path": "miracl-corpus-v1.0-id/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2d4117537499519422db3efd477d96b7d59738f2",
+    "size": 61386913,
+    "lfs": {
+      "oid": "d7486977ef31bd33d35981e7df54a778aa6888c14538044b42f2a108f2af4831",
+      "size": 61386913,
+      "pointerSize": 133
+    },
+    "xetHash": "7128de4c8f85353c2c4d58cd62a0fcd6ec5760bacf3de3e472f700a52c100204",
+    "path": "miracl-corpus-v1.0-id/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "4d46e165b7e8e6c2f7caf8876b9923c0965b82cf",
+    "size": 87302446,
+    "lfs": {
+      "oid": "c205bf3cece2098f3357fdb1b096e9ed0fd257632dd52b8d9095d01e07c61172",
+      "size": 87302446,
+      "pointerSize": 133
+    },
+    "xetHash": "d2ae4a2acfa31d5e3f048a78c2240a964ea6846717b3215d077cf91ab3ec78d3",
+    "path": "miracl-corpus-v1.0-ja/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "33c962d9ccfa274af741600db5eea6d2ca10e2ad",
+    "size": 84310580,
+    "lfs": {
+      "oid": "2d1b8be5ab579604ccc483bebe170dec2b5d0fdcf54a7eb4d1f3dada72795306",
+      "size": 84310580,
+      "pointerSize": 133
+    },
+    "xetHash": "1f36827ea66bdc8f1681349891f4688192822f483c8cfb18f337473290e53e17",
+    "path": "miracl-corpus-v1.0-ja/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "57bf66597eafe3e4be93e8b71c489cf6cf4892a8",
+    "size": 74375206,
+    "lfs": {
+      "oid": "859b4cce1009e965e3663ce606d49de355ee82362028f6b6ecd0bf3f237b85ec",
+      "size": 74375206,
+      "pointerSize": 133
+    },
+    "xetHash": "7902366e792dfaedf0694d00e30c62f7e06a69303c548a08773f7967a4c0a469",
+    "path": "miracl-corpus-v1.0-ja/docs-10.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "779b3208948e89dc9fd1cd84928e9774102c8ca8",
+    "size": 73261365,
+    "lfs": {
+      "oid": "216585793ed7c836eb66a4b5c982025e79a0d0184715d24a404ce0ee009931ce",
+      "size": 73261365,
+      "pointerSize": 133
+    },
+    "xetHash": "2dc635239a03d0e17fa861652e441c2892924a48d782ba3319813b603f57d322",
+    "path": "miracl-corpus-v1.0-ja/docs-11.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "3b08b7264c072478b06c0e617dfa85b54d04af58",
+    "size": 71472211,
+    "lfs": {
+      "oid": "92a950e46775d5c2aebe5e58f1498ddcf16e3e35dafb07f4f04fd3cd9cb64ba3",
+      "size": 71472211,
+      "pointerSize": 133
+    },
+    "xetHash": "1499730d782dd12430015aba39c21960b10e45fd97d604bdf8e77ca51f4384fc",
+    "path": "miracl-corpus-v1.0-ja/docs-12.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5ef3a4e78e9b7465b80bd6ce3582cbc355b6b122",
+    "size": 64646621,
+    "lfs": {
+      "oid": "98acce36aa778df24f24be39965a2654cf7fbd923c09acc9eede8d91dc2b081a",
+      "size": 64646621,
+      "pointerSize": 133
+    },
+    "xetHash": "3a1aaa2b584ae14c2d53017251260fe179036297a940de1da2e4702033dd367e",
+    "path": "miracl-corpus-v1.0-ja/docs-13.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8c5023b908600aa4d79e887f29bc1d4f5d14a2f3",
+    "size": 82263425,
+    "lfs": {
+      "oid": "8992797e86cb16e9be395aae7c68ee2f7be043af638863fb0d36f6cdeb7a02a8",
+      "size": 82263425,
+      "pointerSize": 133
+    },
+    "xetHash": "416b3b882bed386c3a5a10c5641b488509e83e2bd1bc22c641d135862e8c9a21",
+    "path": "miracl-corpus-v1.0-ja/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f012983e8e4c47a41f3739df8b97b9c0edb71111",
+    "size": 79819291,
+    "lfs": {
+      "oid": "8d0f12ce5aa5b3feca45c80ba4aed6abaa4a01d754e309bd8004bd8f181ba92b",
+      "size": 79819291,
+      "pointerSize": 133
+    },
+    "xetHash": "9f9f29362aee3923c04783f2f9d449efd0ed95eb03274657ec1b931a09a5e14e",
+    "path": "miracl-corpus-v1.0-ja/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "0812bc7a1bca9a590fc25afbff43182df6ee55c5",
+    "size": 76369546,
+    "lfs": {
+      "oid": "c32936efa13c72a32c75986dac3737c7d85db103ffabc7d8023320fac7446c57",
+      "size": 76369546,
+      "pointerSize": 133
+    },
+    "xetHash": "daf131d35bd45ead9fe882c89a58cb8c625b22e2a006802f3a05f8dc029b7e62",
+    "path": "miracl-corpus-v1.0-ja/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "37470145f26658ae841c745bfc6097e92ca950b8",
+    "size": 73543156,
+    "lfs": {
+      "oid": "4fbf518b8ec8f57298fa23ffe52863410641173ee368a244863e60ed8b985e62",
+      "size": 73543156,
+      "pointerSize": 133
+    },
+    "xetHash": "0df140e8eead38ccb8ea80a28bce1c0e7593e7d914136bc048701c65a4cbd247",
+    "path": "miracl-corpus-v1.0-ja/docs-5.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "d5fe3ffa7903b6bac848f1f509e146132baba32f",
+    "size": 75527173,
+    "lfs": {
+      "oid": "6d55eb02dfa62b79662e3829a3ef223312374699d528b5af6643e0678bd6d517",
+      "size": 75527173,
+      "pointerSize": 133
+    },
+    "xetHash": "a5648a4f94383e4bc8bd4a40736c56397db5ce4fb66732e20735534b824563cb",
+    "path": "miracl-corpus-v1.0-ja/docs-6.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2e0aa524a1d85f6c3939bf4d479a06331b4c97c9",
+    "size": 75265643,
+    "lfs": {
+      "oid": "fe74fbd9c3965bffc848f74296e8f3fd7db9d63c1b4c62903d1a9779276a963c",
+      "size": 75265643,
+      "pointerSize": 133
+    },
+    "xetHash": "60fd5db424edc164bdf62860cae24c9358fd33f6116a79eb0ebd3e0e627dfd8c",
+    "path": "miracl-corpus-v1.0-ja/docs-7.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "6fd507683412c56ebfbf8dc70320920bccdc81b2",
+    "size": 74070028,
+    "lfs": {
+      "oid": "0abb18418c92d8013cad727dfffcc3fa719c14f818654f9800d7ebee8748f83a",
+      "size": 74070028,
+      "pointerSize": 133
+    },
+    "xetHash": "3b9c67ce92a869b21bdd4ae4c7d14d8ee4fe4761675e6cde10771b5f65afe1b4",
+    "path": "miracl-corpus-v1.0-ja/docs-8.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "9de08fee01db0ad3c5a6d101a1f0e34349d95ad6",
+    "size": 72893709,
+    "lfs": {
+      "oid": "1129864292948a2c8d479aef61ba020d4870cabc3d28e3baed5c8cabee07fe98",
+      "size": 72893709,
+      "pointerSize": 133
+    },
+    "xetHash": "16019383fb08d60b407bae83e8c15e1e3d697411da352b430a07b5b3308fb260",
+    "path": "miracl-corpus-v1.0-ja/docs-9.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "81347d130419cc4f12e43c5456f3bb90951198db",
+    "size": 87965596,
+    "lfs": {
+      "oid": "c56a31883a291504aa9c97968fb7a5fbcc9ea1099ee1810200249e1afb7fc55d",
+      "size": 87965596,
+      "pointerSize": 133
+    },
+    "xetHash": "286708b9ad1bea29e5261b2d4f13ff887dcfaff0d4af2db47374a66e3a314780",
+    "path": "miracl-corpus-v1.0-ko/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "613109fef41003013e0d3a3fa7185bfe7323ddc8",
+    "size": 75422723,
+    "lfs": {
+      "oid": "fecd2886124e78c3aa87c59604ac9909c23165415c70a96f4edb95677b5ed0cd",
+      "size": 75422723,
+      "pointerSize": 133
+    },
+    "xetHash": "50a28a6dfbddf568a64e114061475643757a4ad6a4c623f3f2d1c69d360ec712",
+    "path": "miracl-corpus-v1.0-ko/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "dd4674fb4ba81d838f5753afd6e77aa39a4320ee",
+    "size": 62582229,
+    "lfs": {
+      "oid": "93e90d098d78f50a9e76dd2e64608d65e0563787954f848da9b04286f81b75d9",
+      "size": 62582229,
+      "pointerSize": 133
+    },
+    "xetHash": "1164c8b717d650b36a1c794315589ba5a6e934ca8bdcaa00b058b2b37742e712",
+    "path": "miracl-corpus-v1.0-ko/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "ccd67178b372c8418fc4b9acddf538845bdbf270",
+    "size": 100436081,
+    "lfs": {
+      "oid": "699b5ee09f2be4afcf787637602d87ce9cf86156ac6d52e40a5af4044f4c5ed8",
+      "size": 100436081,
+      "pointerSize": 134
+    },
+    "xetHash": "945e977dc4ddcd01a5fa0cb74164c3bac273c86760434a0c9e89ffe7187bdbc5",
+    "path": "miracl-corpus-v1.0-ru/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5a1f6d536dd9e57982d2563c09fc61205ed7128c",
+    "size": 98036311,
+    "lfs": {
+      "oid": "c2c611d61905988484e9fd4019146a3d3e1fc23cbef36079a766860d65522262",
+      "size": 98036311,
+      "pointerSize": 133
+    },
+    "xetHash": "44cb4c3e71d4eab31215deaf84d539e19998a80adb7c8386986537c3601ab8b6",
+    "path": "miracl-corpus-v1.0-ru/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8a4b4e23a7e4ba0c53245b26cde75af4c6c96d4b",
+    "size": 75656001,
+    "lfs": {
+      "oid": "d42cf2abe388135efb8c51199dfa2666d99f9206ce16468da5a2cae226077479",
+      "size": 75656001,
+      "pointerSize": 133
+    },
+    "xetHash": "f2ca8227e4c9bed678dc677ef63f00bd0a23e19424ab74835af1141a1eafe119",
+    "path": "miracl-corpus-v1.0-ru/docs-10.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "2b71236d1e837bac3a269c7f179fff15f762b737",
+    "size": 78271034,
+    "lfs": {
+      "oid": "f0ad276a1d7a1f78bb9825e38a18cb3444b3477be775b21852409f3a0997418d",
+      "size": 78271034,
+      "pointerSize": 133
+    },
+    "xetHash": "7febbf9e4ff3eafdd6543031b63300f7a0fb5f9da5201193ec80e6f8f6534311",
+    "path": "miracl-corpus-v1.0-ru/docs-11.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "97a79b2e0611ded416ea954822c6679b0b53ceb0",
+    "size": 76539873,
+    "lfs": {
+      "oid": "d342158c26ceaf7afa0aa0dc9a84615358d5176b9be69211a8ee6cac1d18bc7f",
+      "size": 76539873,
+      "pointerSize": 133
+    },
+    "xetHash": "07a07e60d3f453fde8e78dcbde52b05b48fae785ddcc313541e6f9c25d28dcce",
+    "path": "miracl-corpus-v1.0-ru/docs-12.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "20cbf26f8e4b1c669d86a04180237bb47ac150f5",
+    "size": 78171375,
+    "lfs": {
+      "oid": "3dbc7963a3de84babe89eb9d0d4761291ea76ffa57e546a6486da6d334cb1baf",
+      "size": 78171375,
+      "pointerSize": 133
+    },
+    "xetHash": "e168c040fffbdc384335a95a57c683109a07fcf8aad648e1d804cd25b77ae1a4",
+    "path": "miracl-corpus-v1.0-ru/docs-13.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "24210434e92d1eb0cfa48f82456a010723226891",
+    "size": 78271662,
+    "lfs": {
+      "oid": "a925a0b9270269ed5012ad0cdb803140edbdfb38e86c798d0666633dde495289",
+      "size": 78271662,
+      "pointerSize": 133
+    },
+    "xetHash": "bb1026544e29eef7b1d6cf80f7342128c39bf083fdb4b0bed7f3f20acb118eb6",
+    "path": "miracl-corpus-v1.0-ru/docs-14.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "d917bdf0dc6f19dab6aa338a91af2c9a24e7f621",
+    "size": 79432861,
+    "lfs": {
+      "oid": "bf5948805fc0a8b5c3d064fd4ecaa98e915c20f1d144eaa1f6cef8ed581702f8",
+      "size": 79432861,
+      "pointerSize": 133
+    },
+    "xetHash": "a3728f858fdcc55c8e8f619c3563955b975e1a6e75890d2e68c6e5d3cdefbe7a",
+    "path": "miracl-corpus-v1.0-ru/docs-15.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "7fb68faa8ffe0f4fcfb4e8fdfbd2f7f3f15527ab",
+    "size": 81415343,
+    "lfs": {
+      "oid": "aa4f3665fecfb3cce4f93f8cc09a81a9214e53d77612350f831c157b417cde40",
+      "size": 81415343,
+      "pointerSize": 133
+    },
+    "xetHash": "dde3278c4aa9378226a2151039eccca23fff92d4197ad52cb67c275485f52873",
+    "path": "miracl-corpus-v1.0-ru/docs-16.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "aa93f2c89c401506934d84b6e3d212695faa3c1a",
+    "size": 81955644,
+    "lfs": {
+      "oid": "297506bf253de9aa4c459741aad32a86d753d3849f87b1d365c412010b9b7c10",
+      "size": 81955644,
+      "pointerSize": 133
+    },
+    "xetHash": "70acf592230fa08d2cad6e39377c98e918bd36036d98e39296ff6d82c03f572c",
+    "path": "miracl-corpus-v1.0-ru/docs-17.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8efb8cf76d8dbec9eaa0cb85d6e9a9041869aef3",
+    "size": 81041807,
+    "lfs": {
+      "oid": "85b096e858899c245188a7682ed1a41d8ff4eb03865ef6531ceb0019b8aeb45f",
+      "size": 81041807,
+      "pointerSize": 133
+    },
+    "xetHash": "02d4e944635ead96d4ee5adbc3f2bf6fee83b131b9e8616aa51ec138b1e49cb9",
+    "path": "miracl-corpus-v1.0-ru/docs-18.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "96cc3a52b3dedeb2e4c2e62ce8208b679c0cea1d",
+    "size": 6749385,
+    "lfs": {
+      "oid": "d74cfbbfd614ff59ea9f146b73d3eb3fd23899b4a649cc77af6d38973fe2d7a5",
+      "size": 6749385,
+      "pointerSize": 132
+    },
+    "xetHash": "078a6e1a31d3ce8b725cac6d82c23857083f533abd776cd5c3890e48c63d7469",
+    "path": "miracl-corpus-v1.0-ru/docs-19.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "8c00e115f1d14b7e3f939cc1008c5f7807caa719",
+    "size": 90050391,
+    "lfs": {
+      "oid": "8842fda047c88bd609fc2e346d4a150be764715f26bc04ccfb6bcdce109f6a16",
+      "size": 90050391,
+      "pointerSize": 133
+    },
+    "xetHash": "244257d933b224aa4a6e07e8f877cb1d1b8b61ca13406d54a5f8790f48761d87",
+    "path": "miracl-corpus-v1.0-ru/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f59c140d7706b4c15aeaf17c97d1ca95bb4013b8",
+    "size": 89443294,
+    "lfs": {
+      "oid": "84b986cfddc875c43aaee9b4f5feb1bb0fed75a38fe7c22114474ef9ba2dc530",
+      "size": 89443294,
+      "pointerSize": 133
+    },
+    "xetHash": "0177a1f94ac8586e5e5ac5ba2d06b8ada9067da93793a79037595134ae73ae78",
+    "path": "miracl-corpus-v1.0-ru/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "24b618e4d821d208109f90dcdf1a13714e358391",
+    "size": 82032411,
+    "lfs": {
+      "oid": "fb807d21d62e71602d6bb6c720f4991b1fb1984f1582ebf0918308d8f8c6fc8c",
+      "size": 82032411,
+      "pointerSize": 133
+    },
+    "xetHash": "7ddb2dc5d454b839c105d02eb3c87857d6b41afee70d72318a1a0056886d70fc",
+    "path": "miracl-corpus-v1.0-ru/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "0370f8b137a6ad005d25eb1c592c51da833475e6",
+    "size": 88457515,
+    "lfs": {
+      "oid": "2f36e35b8181e18ea1839a1770aafa146ffbfee697a518a9befd502cca75ab47",
+      "size": 88457515,
+      "pointerSize": 133
+    },
+    "xetHash": "182ea3d7cbed441b500844132e22ccc4dc5286d05974c78f9a7df05ec565607d",
+    "path": "miracl-corpus-v1.0-ru/docs-5.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f517356f59c8e1414b07d7931c612f423cf993b9",
+    "size": 81102964,
+    "lfs": {
+      "oid": "6f024330ffcd2a99c9d60e396275b3d6174406260779693c004e59abdb40a6d9",
+      "size": 81102964,
+      "pointerSize": 133
+    },
+    "xetHash": "4793e002367842813b922d71bdc9f3116042bb60394a2ae710298279b07e2385",
+    "path": "miracl-corpus-v1.0-ru/docs-6.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "4112d8069748570a3cb42be1a8e888486e53075f",
+    "size": 80229752,
+    "lfs": {
+      "oid": "6d0d631753a1c8bf3aad78b2fb77e6d813fc588444457bed974ed77a3139b471",
+      "size": 80229752,
+      "pointerSize": 133
+    },
+    "xetHash": "89865f3f8a49391906da805cdef0c363ddbab90dff238a413b73841537edbb29",
+    "path": "miracl-corpus-v1.0-ru/docs-7.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "64a621645c463f662e2d9f5c349f272d97af1311",
+    "size": 74478227,
+    "lfs": {
+      "oid": "c4a9d0bfc5093c25f533648a6ee24fdddc05876a8c780e86505eb7465abde4a1",
+      "size": 74478227,
+      "pointerSize": 133
+    },
+    "xetHash": "4f835230df5f4a4a52208059b9adddb23f7e2797f6339a38248dba446524193d",
+    "path": "miracl-corpus-v1.0-ru/docs-8.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "45a0c6184ce2a2cc761f8c6ac570dcb067161228",
+    "size": 73515957,
+    "lfs": {
+      "oid": "2224fcf093a0d96203228fa03a69d1002b7950d15b6984400c7674dac194aea4",
+      "size": 73515957,
+      "pointerSize": 133
+    },
+    "xetHash": "38c84eb33988aa761dc14f694e8cd1f7f5d4850d6bd785cb781ebae07f9bbf7f",
+    "path": "miracl-corpus-v1.0-ru/docs-9.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "b8c65924777ad57bd3a02b160fc2f90d694bd772",
+    "size": 10199394,
+    "lfs": {
+      "oid": "1a604a6571cd74061ba2778082bfff7eddc734c9076e11c5bad04125a39fd246",
+      "size": 10199394,
+      "pointerSize": 133
+    },
+    "xetHash": "51f4c9382d03b8b914e21be62a1a1b478e3c07fe8858964be16df74285e4456f",
+    "path": "miracl-corpus-v1.0-sw/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "74c6c8aeb545aa960c60706cebd524d28b82b176",
+    "size": 68858140,
+    "lfs": {
+      "oid": "ea8505168cd1ba50394ee25b7f13893f5736e89c74ac459ad7e32c27482fc04a",
+      "size": 68858140,
+      "pointerSize": 133
+    },
+    "xetHash": "d85c7a5bafca3f56d3e475b3ec5f2872130a0687b022b2c3e8dd422f0ac1c28b",
+    "path": "miracl-corpus-v1.0-te/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "1eae9785d1b866754d7d75714685952522b89ba0",
+    "size": 3454223,
+    "lfs": {
+      "oid": "621be64ea95d7937ae6fbf0a3d13e6dfcbfb620b007306b38889377a1323aed4",
+      "size": 3454223,
+      "pointerSize": 132
+    },
+    "xetHash": "d33684bf35a49f00b2cc84029dad187bb721a4657b8e798808cb8c1de438b0dc",
+    "path": "miracl-corpus-v1.0-te/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "b0063c1ae0929eea1db3820e66cf52e74e7abf28",
+    "size": 101610412,
+    "lfs": {
+      "oid": "49728f2682602179d8381d0bf0eeaf6eb75bdb5332f9366832ee8e430e4f422c",
+      "size": 101610412,
+      "pointerSize": 134
+    },
+    "xetHash": "00049114560b5c73e84e11f361c487b2e184e2dd0765b7781eee56db6aa4a5bb",
+    "path": "miracl-corpus-v1.0-th/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "87ce3f0fdbc7783087fb26cc24e166864bfdcd8e",
+    "size": 8027002,
+    "lfs": {
+      "oid": "62c501dbbe34af63449ccce9fe62f4b09e7296872a330217c2895969ab961c8a",
+      "size": 8027002,
+      "pointerSize": 132
+    },
+    "xetHash": "1aad1b4cd1fb414fd4d6a9783a4dc1582e2509d6fa9e6c47a0356dace8110740",
+    "path": "miracl-corpus-v1.0-th/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "bf519bc61c89e0db9faa6ae658238861823e18bf",
+    "size": 3022542,
+    "lfs": {
+      "oid": "8c9e50d58dfec919a8cc908dfc377baa83f9d0425079e734cd4d3d09f1929c8a",
+      "size": 3022542,
+      "pointerSize": 132
+    },
+    "xetHash": "166ce50390dc0c88e97bb169068aec49f19edf628ab580c8a51ee32d1c0b662c",
+    "path": "miracl-corpus-v1.0-yo/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "0cd270e41a4c27af66fd1bb839df986c341f030b",
+    "size": 97061486,
+    "lfs": {
+      "oid": "b036ba6a927a4598b314de55a1de200d2a619b28b4327f49e97ec4233d324827",
+      "size": 97061486,
+      "pointerSize": 133
+    },
+    "xetHash": "4fe977172fd96ee5b88696dbebbff325f0c1027f18e87805c0a3a1ccbd7b7673",
+    "path": "miracl-corpus-v1.0-zh/docs-0.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "6be1d8b03ca4ae25c9ba046b06a8237d03463751",
+    "size": 85538355,
+    "lfs": {
+      "oid": "d6db9e242bdebeac76f586c0ec9a6301a9ec4a52c64c71949945ba5983467506",
+      "size": 85538355,
+      "pointerSize": 133
+    },
+    "xetHash": "2fe65d34d700a1c0fa2dca69678cb5a76e4b3b262e5bd6469c50c832ed5aea09",
+    "path": "miracl-corpus-v1.0-zh/docs-1.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "e381a47237531db7ea4a060a6507df9a734454c2",
+    "size": 80287705,
+    "lfs": {
+      "oid": "29f1b1e3bec59770367be71d1698a7afaf7efb8006d168d40a2815025c8d1b43",
+      "size": 80287705,
+      "pointerSize": 133
+    },
+    "xetHash": "600a66e46138b26c54bbb873384410e1b674b785ad6b5339bbeb686fd450ad41",
+    "path": "miracl-corpus-v1.0-zh/docs-2.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "c8db804aef54c4c6454a3d2bc348683705c2155e",
+    "size": 76098139,
+    "lfs": {
+      "oid": "9cfc76c7f9ec9edc12d351913ba0f33a96d496a7449b46a6488f77668acf178d",
+      "size": 76098139,
+      "pointerSize": 133
+    },
+    "xetHash": "2854941aaa95097154a7076b31d0231e3e5dba6fd81192a8dc5752c439ef52db",
+    "path": "miracl-corpus-v1.0-zh/docs-3.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "572162a0f7da6b5c85f44f84f309a9cd66dd2773",
+    "size": 60594024,
+    "lfs": {
+      "oid": "d47cef57928c3452d95cc8499dea37ce6e589808a9315ab2cf9809a23fe349b5",
+      "size": 60594024,
+      "pointerSize": 133
+    },
+    "xetHash": "02e768a83771cf9e386acfb2e7db08340124275b24dff297a57455090c8e748f",
+    "path": "miracl-corpus-v1.0-zh/docs-4.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "4539a9bd11c0f9bddcf2f9b5586ae45bd260b739",
+    "size": 50492481,
+    "lfs": {
+      "oid": "17e1d4bf36d3992ccf5c519522ed1dcf896cb72772907e973bfcf1b2dd993e28",
+      "size": 50492481,
+      "pointerSize": 133
+    },
+    "xetHash": "0c906058caf376268cc38f536cc7694f86a76a63b7a59ea52a83bce1523bc5ca",
+    "path": "miracl-corpus-v1.0-zh/docs-5.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "056ad3412f6791d9a97c7570b5fa482f9f20c9da",
+    "size": 76002940,
+    "lfs": {
+      "oid": "4b3cdc7aeefc01ca4c2f55ba16ac80d773393068b78d4f971fc3c25c6fb9a859",
+      "size": 76002940,
+      "pointerSize": 133
+    },
+    "xetHash": "e221634fa36d75927584f2c1e91af3147fc1f7db30dde4a4eedffb66ec10881f",
+    "path": "miracl-corpus-v1.0-zh/docs-6.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "490faacaaf6084de326ed0b87cbda28f177e64a8",
+    "size": 71709349,
+    "lfs": {
+      "oid": "e7541af8c2fb7a96cff271e06047f0b4f00372b205735fabeed6217f9a7bb334",
+      "size": 71709349,
+      "pointerSize": 133
+    },
+    "xetHash": "be1445dd8f614936328fe68c972243f4cb7e146d34e30e3735625c6fffc22b53",
+    "path": "miracl-corpus-v1.0-zh/docs-7.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "fd8a200c1958cd48746b83f11dceb81212f65bed",
+    "size": 72069621,
+    "lfs": {
+      "oid": "f456671170b8286ede8f81feb9d365750af5027465399f63445a441fc96c41a7",
+      "size": 72069621,
+      "pointerSize": 133
+    },
+    "xetHash": "2bd9592be3b4434abef04674dd0d5bca75521ad2a7b97c105276d283e7dae90d",
+    "path": "miracl-corpus-v1.0-zh/docs-8.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "f9640233eb4bfcffb113f3fe15115d2d46714c57",
+    "size": 63401726,
+    "lfs": {
+      "oid": "6c8193e14aafd93fb1ee57eac4f1171a44a0c975ebdefd6e9df1903c1b2fd7ca",
+      "size": 63401726,
+      "pointerSize": 133
+    },
+    "xetHash": "ebb3d51a61136d5373274e622004de27229b4ae3de08ffa29a84b181e1d28758",
+    "path": "miracl-corpus-v1.0-zh/docs-9.jsonl.gz"
+  },
+  {
+    "type": "file",
+    "oid": "5af70514ba7e09a745793ea62a05e411f0b7c29a",
+    "size": 3154,
+    "path": "miracl-corpus.py"
+  }
+]

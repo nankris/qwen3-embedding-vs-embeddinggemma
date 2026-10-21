@@ -1,0 +1,8 @@
+{
+  "docs": 500,
+  "seconds": 4.906751873000076,
+  "docs_per_second": 101.90040436960003,
+  "batch_size": 16,
+  "dtype": "bfloat16",
+  "device": "cuda"
+}

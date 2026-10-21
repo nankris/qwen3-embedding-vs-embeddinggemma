@@ -1,0 +1,6 @@
+sentence-transformers==6.1.0
+transformers @ git+https://github.com/huggingface/transformers.git@8498ed425fa01bbee7d086efdf1a6634c2962aed
+numpy
+pandas
+matplotlib
+pyarrow
