@@ -1,6 +1,6 @@
 from pathlib import Path
 import subprocess
-r=Path('/content/exp098')
+r=Path('/content/embedding-comparison')
 print(subprocess.getoutput('nvidia-smi --query-gpu=name,utilization.gpu,memory.used --format=csv'))
 for f in ['run.log','mini.log','pipeline.log','consistent_stack.log','complete.json']:
  p=r/f

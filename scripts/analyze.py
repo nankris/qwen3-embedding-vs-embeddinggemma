@@ -48,7 +48,7 @@ for k in KS:
  speeds.append(row)
 pd.DataFrame(speeds).to_csv(R/'speeds.csv',index=False)
 fig,axes=plt.subplots(1,2,figsize=(11,4.5))
-for ax,dev,title in zip(axes,['gpu','cpu'],['NVIDIA L4 · bfloat16 · batch 16','Sandbox ARM CPU · float32 · batch 1']):
+for ax,dev,title in zip(axes,['gpu','cpu'],['NVIDIA L4 · bfloat16 · batch 16','ARM CPU · float32 · batch 1']):
  vals=[x[dev] for x in speeds];ax.bar(range(3),vals,color=colors);ax.set_xticks(range(3),[NAMES[k] for k in KS],rotation=15,ha='right',fontsize=10);ax.set_ylabel('Documents / second');ax.set_title(title,fontsize=12)
  for i,v in enumerate(vals):
   if np.isfinite(v):ax.text(i,v,f'{v:.1f}',ha='center',va='bottom')

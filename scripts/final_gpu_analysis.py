@@ -1,6 +1,6 @@
 import subprocess,time,os
 from pathlib import Path
-r=Path('/content/exp098')
+r=Path('/content/embedding-comparison')
 while not (r/'complete.json').exists():time.sleep(3)
 os.chdir(r)
 with open(r/'analysis.log','a') as f:

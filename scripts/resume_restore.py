@@ -1,7 +1,7 @@
 import tarfile,subprocess,shutil,json,time
 from pathlib import Path
-r=Path('/content/exp098');r.mkdir(exist_ok=True)
-with tarfile.open('/content/restore098.tar.gz') as t:t.extractall(r,filter='data')
+r=Path('/content/embedding-comparison');r.mkdir(exist_ok=True)
+with tarfile.open('/content/restore_embeddings.tar.gz') as t:t.extractall(r,filter='data')
 p=r/'results/miracl_te_data.json';p.parent.mkdir(exist_ok=True);shutil.copy('/content/miracl_te_data.json',p)
 a=r/'results/initial_stack';a.mkdir(exist_ok=True)
 for k in ['qwen','bge']:
@@ -10,7 +10,7 @@ for k in ['qwen','bge']:
   elif p.name.endswith(('_metrics.csv','_top100.json','_gpu_speed.json')):shutil.move(p,a/p.name)
 script="""import subprocess,time,json
 from pathlib import Path
-r=Path('/content/exp098')
+r=Path('/content/embedding-comparison')
 while not Path('/content/install_done').exists():time.sleep(2)
 with open(r/'resume_run.log','a') as f:
  for s in ['/content/run_eval.py','/content/mini_multilingual.py']:

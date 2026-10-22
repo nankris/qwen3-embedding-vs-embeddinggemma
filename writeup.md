@@ -1,6 +1,6 @@
 # EmbeddingGemma 2 found 2.4% more relevant documents
 
-Experiment 098 · Hari's Tech in General · Measured 17 October 2026
+Hari's Tech in General · Measured 17 October 2026
 
 **Verdict: DISPROVEN** for the joint hypothesis that Qwen wins English quality while EmbeddingGemma is faster and smaller. The predeclared English-quality test is **DISPROVEN**; the speed-and-size test is **INCONCLUSIVE**.
 
@@ -61,7 +61,7 @@ The paired linear-gain macro difference (Qwen − Google) is -2.45 points [95% C
 
 ## Size and encoding speed
 
-One warmed timed pass over the same first 500 SciFact documents (sorted IDs), excluding download, load, and search. L4 uses bfloat16 and batch 16; the two-core ARM Neoverse-V2 sandbox uses float32 and batch 1, with two Torch threads. The clock includes tokenizer, forward pass, normalization, and returning NumPy embeddings. Different prompts yield slightly different token counts.
+One warmed timed pass over the same first 500 SciFact documents (sorted IDs), excluding download, load, and search. L4 uses bfloat16 and batch 16; the two-core ARM Neoverse-V2 CPU uses float32 and batch 1, with two Torch threads. The clock includes tokenizer, forward pass, normalization, and returning NumPy embeddings. Different prompts yield slightly different token counts.
 
 | Model | Loaded parameters | Native dimensions | L4 docs/s | CPU docs/s |
 |---|---:|---:|---:|---:|
@@ -73,7 +73,7 @@ EmbeddingGemma 2’s full multimodal checkpoint is approximately 744M parameters
 
 ![Warm document encoding throughput](figures/speed.png)
 
-Speed is a single-pass observation, with no throughput confidence interval. It is conditional on these batch sizes, document lengths, dtypes, software, and shared sandbox conditions; it is not a claim about every CPU or serving stack. All final L4 runs use upstream Transformers 5.21.0.dev0 (commit recorded in the logs), required for the newly released Google architecture. Initial Qwen/BGE results on 5.18.0 are archived separately and excluded from the final comparison; both models were rerun on the common stack. All final CPU models also use the same pinned Transformers 5.21.0.dev0 commit, with PyTorch 2.14.1+cpu; the isolated package install is recorded in the logs. Full package snapshots and checkpoint revisions are archived.
+Speed is a single-pass observation, with no throughput confidence interval. It is conditional on these batch sizes, document lengths, dtypes, software, and shared host conditions; it is not a claim about every CPU or serving stack. All final L4 runs use upstream Transformers 5.21.0.dev0 (commit recorded in the logs), required for the newly released Google architecture. Initial Qwen/BGE results on 5.18.0 are archived separately and excluded from the final comparison; both models were rerun on the common stack. All final CPU models also use the same pinned Transformers 5.21.0.dev0 commit, with PyTorch 2.14.1+cpu; the isolated package install is recorded in the logs. Full package snapshots and checkpoint revisions are archived.
 
 ## Hindi and Telugu mini-check
 
@@ -98,8 +98,8 @@ EmbeddingGemma 2 retrieved slightly more known relevant material on average acro
 
 These are three small, public benchmarks that may have appeared in model training; we cannot measure training contamination. The 512-token cap truncates long material and suppresses the models’ larger context windows. BGE is an English-focused baseline, so its Hindi/Telugu check is outside its intended specialization. Unjudged documents are treated as nonrelevant, as in benchmark evaluation. No inference-service APIs, private data, or model tuning were used.
 
-`README.md` contains the pre-measurement plan and recorded corrections. Raw per-query metrics, top-100 English rankings, qrels/data snapshots, revisions, timing JSON, paired intervals, and an independent metric reconstruction check are in `results/`; scripts are resumable. `figures/colab_run.txt` includes GPU identification and timing evidence. GPU lifetime/CU accounting and the local commit are documented with the delivered experiment.
+`README.md` contains the pre-measurement plan and recorded corrections. Raw per-query metrics, top-100 English rankings, qrels/data snapshots, revisions, timing JSON, paired intervals, and an independent metric reconstruction check are in `results/`; scripts are resumable. `figures/colab_run.txt` includes GPU identification and timing evidence. GPU lifetime/CU accounting is recorded in `results/compute_usage.json`.
 
 ## Compute accounting
 
-NVIDIA L4; session `b6-098` stopped. Resumed allocation: approximately 0.365 CU from lifetime × 1.54 CU/hour. Including the interrupted allocation, attributable usage is bounded at approximately **0.82–1.85 CU**; its exact termination time was lost, so an exact billing total is unavailable. The account balance also includes concurrent experiments and is not used as this experiment’s cost. See `results/compute_usage.json` and `figures/colab_stop.txt`.
+NVIDIA L4; session `embedding-comparison` stopped. Resumed allocation: approximately 0.365 CU from lifetime × 1.54 CU/hour. Including the interrupted allocation, attributable usage is bounded at approximately **0.82–1.85 CU**; its exact termination time was lost, so an exact billing total is unavailable. The account balance also includes concurrent experiments and is not used as this experiment’s cost. See `results/compute_usage.json` and `figures/colab_stop.txt`.

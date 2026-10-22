@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 source /workspace/tools/setup.sh
-cd /workspace/work/tig/098-qwen3-embedding-vs-embeddinggemma
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
 export EXP_ROOT="$PWD"
 export HF_HOME="$PWD/.cache/huggingface"
 export PYTHONPATH="$PWD/.deps"

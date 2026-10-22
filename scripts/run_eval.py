@@ -4,7 +4,7 @@ os.environ['TOKENIZERS_PARALLELISM']='false'
 import numpy as np,torch,pandas as pd
 from huggingface_hub import HfApi,hf_hub_download
 from sentence_transformers import SentenceTransformer
-ROOT=Path(os.environ.get('EXP_ROOT','/content/exp098')); ROOT.mkdir(exist_ok=True,parents=True)
+ROOT=Path(os.environ.get('EXP_ROOT','/content/embedding-comparison')); ROOT.mkdir(exist_ok=True,parents=True)
 R=ROOT/'results'; R.mkdir(exist_ok=True)
 MODELS={'qwen':'Qwen/Qwen3-Embedding-0.6B','gemma':'google/embeddinggemma-2','bge':'BAAI/bge-small-en-v1.5'}
 def save(p,d):

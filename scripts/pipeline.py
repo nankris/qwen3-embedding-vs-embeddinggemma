@@ -1,6 +1,6 @@
 import os,time,subprocess,shutil
 from pathlib import Path
-r=Path('/content/exp098')
+r=Path('/content/embedding-comparison')
 old=Path('/proc/2620/stat')
 while old.exists():
  try:

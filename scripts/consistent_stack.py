@@ -1,7 +1,7 @@
 """Repeat initial-stack Qwen/BGE on the same supported software stack as Google."""
 import time,subprocess,shutil
 from pathlib import Path
-r=Path('/content/exp098');old=Path('/proc/4142/stat')
+r=Path('/content/embedding-comparison');old=Path('/proc/4142/stat')
 while old.exists():
  try:
   if old.read_text().split()[2]=='Z':break
